@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/com/com.egg-info
+writing ../build/com/com.egg-info/PKG-INFO
+writing dependency_links to ../build/com/com.egg-info/dependency_links.txt
+writing entry points to ../build/com/com.egg-info/entry_points.txt
+writing requirements to ../build/com/com.egg-info/requires.txt
+writing top-level names to ../build/com/com.egg-info/top_level.txt
+writing manifest file '../build/com/com.egg-info/SOURCES.txt'
+reading manifest file '../build/com/com.egg-info/SOURCES.txt'
+writing manifest file '../build/com/com.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/GM/build/com/build
+creating /home/orangepi/GM/build/com/build/lib
+creating /home/orangepi/GM/build/com/build/lib/com
+copying com/__init__.py -> /home/orangepi/GM/build/com/build/lib/com
+copying com/com_sub.py -> /home/orangepi/GM/build/com/build/lib/com
+running install
+running install_lib
+creating /home/orangepi/GM/install/com/lib/python3.10/site-packages/com
+copying /home/orangepi/GM/build/com/build/lib/com/__init__.py -> /home/orangepi/GM/install/com/lib/python3.10/site-packages/com
+copying /home/orangepi/GM/build/com/build/lib/com/com_sub.py -> /home/orangepi/GM/install/com/lib/python3.10/site-packages/com
+byte-compiling /home/orangepi/GM/install/com/lib/python3.10/site-packages/com/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/orangepi/GM/install/com/lib/python3.10/site-packages/com/com_sub.py to com_sub.cpython-310.pyc
+running install_data
+creating /home/orangepi/GM/install/com/share/ament_index
+creating /home/orangepi/GM/install/com/share/ament_index/resource_index
+creating /home/orangepi/GM/install/com/share/ament_index/resource_index/packages
+copying resource/com -> /home/orangepi/GM/install/com/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/GM/install/com/share/com
+running install_egg_info
+Copying ../build/com/com.egg-info to /home/orangepi/GM/install/com/lib/python3.10/site-packages/com-0.0.0-py3.10.egg-info
+running install_scripts
+Installing com_sub script to /home/orangepi/GM/install/com/lib/com
+writing list of installed files to '/home/orangepi/GM/build/com/install.log'

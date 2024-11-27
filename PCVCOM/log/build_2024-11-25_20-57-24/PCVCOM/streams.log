@@ -1,0 +1,60 @@
+[0.863s] Invoking command in '/home/orangepi/GM/PCVCOM/PCVCOM': PYTHONPATH=/home/orangepi/GM/PCVCOM/build/PCVCOM/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/PCVCOM build --build-base /home/orangepi/GM/PCVCOM/build/PCVCOM/build install --record /home/orangepi/GM/PCVCOM/build/PCVCOM/install.log --single-version-externally-managed install_data
+[1.177s] running egg_info
+[1.177s] creating ../build/PCVCOM/PCVCOM.egg-info
+[1.178s] writing ../build/PCVCOM/PCVCOM.egg-info/PKG-INFO
+[1.179s] writing dependency_links to ../build/PCVCOM/PCVCOM.egg-info/dependency_links.txt
+[1.179s] writing entry points to ../build/PCVCOM/PCVCOM.egg-info/entry_points.txt
+[1.180s] writing requirements to ../build/PCVCOM/PCVCOM.egg-info/requires.txt
+[1.180s] writing top-level names to ../build/PCVCOM/PCVCOM.egg-info/top_level.txt
+[1.180s] writing manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'
+[1.181s] reading manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'
+[1.181s] adding license file 'LICENSE'
+[1.182s] writing manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'
+[1.183s] running build
+[1.184s] running build_py
+[1.184s] creating /home/orangepi/GM/PCVCOM/build/PCVCOM/build
+[1.185s] creating /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib
+[1.185s] creating /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.186s] copying PCVCOM/__init__.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.186s] copying PCVCOM/pubCom.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.186s] copying PCVCOM/recvCom.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.187s] copying PCVCOM/recvComFloat.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.187s] copying PCVCOM/validation.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.188s] copying PCVCOM/recvComString.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.188s] copying PCVCOM/example.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.188s] copying PCVCOM/recvComFloat_val.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.189s] running install
+[1.189s] running install_lib
+[1.190s] creating /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.190s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/__init__.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.191s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/pubCom.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.191s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/recvCom.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.191s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/recvComFloat.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.192s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/validation.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.192s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/recvComString.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.192s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/example.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.192s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/recvComFloat_val.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.192s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/__init__.py to __init__.cpython-310.pyc
+[1.192s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/pubCom.py to pubCom.cpython-310.pyc
+[1.193s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/recvCom.py to recvCom.cpython-310.pyc
+[1.193s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/recvComFloat.py to recvComFloat.cpython-310.pyc
+[1.193s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/validation.py to validation.cpython-310.pyc
+[1.193s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/recvComString.py to recvComString.cpython-310.pyc
+[1.193s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/example.py to example.cpython-310.pyc
+[1.193s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/recvComFloat_val.py to recvComFloat_val.cpython-310.pyc
+[1.193s] running install_data
+[1.193s] creating /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index
+[1.193s] creating /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index/resource_index
+[1.194s] creating /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index/resource_index/packages
+[1.194s] copying resource/PCVCOM -> /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index/resource_index/packages
+[1.194s] copying package.xml -> /home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM
+[1.194s] running install_egg_info
+[1.196s] Copying ../build/PCVCOM/PCVCOM.egg-info to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM-0.0.0-py3.10.egg-info
+[1.197s] running install_scripts
+[1.231s] Installing eg script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.231s] Installing sub_float script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.232s] Installing sub_float_val script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.232s] Installing sub_string script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.232s] Installing validation script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.232s] writing list of installed files to '/home/orangepi/GM/PCVCOM/build/PCVCOM/install.log'
+[1.335s] Invoked command in '/home/orangepi/GM/PCVCOM/PCVCOM' returned '0': PYTHONPATH=/home/orangepi/GM/PCVCOM/build/PCVCOM/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/PCVCOM build --build-base /home/orangepi/GM/PCVCOM/build/PCVCOM/build install --record /home/orangepi/GM/PCVCOM/build/PCVCOM/install.log --single-version-externally-managed install_data

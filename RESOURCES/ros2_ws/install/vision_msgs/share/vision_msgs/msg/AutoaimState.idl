@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_msgs/msg/AutoaimState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module vision_msgs {
+  module msg {
+    module AutoaimState_Constants {
+      const uint8 TARGET_ID0_NONE = 0;
+      const uint8 TARGET_ID1_HERO = 1;
+      const uint8 TARGET_ID2_ENGINEEER = 2;
+      const uint8 TARGET_ID3_INFANTRY = 3;
+      const uint8 TARGET_ID4_INFANTRY = 4;
+      const uint8 TARGET_ID5_INFANTRY = 5;
+      const uint8 TARGET_ID6_OUTPOST = 6;
+      const uint8 TARGET_ID7_SENTRY = 7;
+    };
+    @verbatim (language="comment", text=
+      "This message contains auto aiming state")
+    struct AutoaimState {
+      std_msgs::msg::Header header;
+
+      uint8 autoaim_state;
+
+      @verbatim (language="comment", text=
+        "auto aiming priority target")
+      uint8 target_id;
+    };
+  };
+};

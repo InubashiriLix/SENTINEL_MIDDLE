@@ -1,0 +1,4 @@
+[console_scripts]
+com = PCVCOM.example:main
+recv = PCVCOM.recvCom:main
+

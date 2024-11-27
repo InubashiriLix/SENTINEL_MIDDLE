@@ -1,0 +1,4 @@
+source;share/hero_msgs/local_setup.bash
+source;share/hero_msgs/local_setup.dsv
+source;share/hero_msgs/local_setup.sh
+source;share/hero_msgs/local_setup.zsh

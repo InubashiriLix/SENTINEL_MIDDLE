@@ -1,0 +1,24 @@
+[7.082s] Invoking command in '/home/orangepi/GM/com': PYTHONPATH=/home/orangepi/GM/build/com/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/install/com/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/com build --build-base /home/orangepi/GM/build/com/build install --record /home/orangepi/GM/build/com/install.log --single-version-externally-managed install_data
+[9.651s] running egg_info
+[9.657s] writing ../build/com/com.egg-info/PKG-INFO
+[9.660s] writing dependency_links to ../build/com/com.egg-info/dependency_links.txt
+[9.663s] writing entry points to ../build/com/com.egg-info/entry_points.txt
+[9.666s] writing requirements to ../build/com/com.egg-info/requires.txt
+[9.668s] writing top-level names to ../build/com/com.egg-info/top_level.txt
+[9.709s] reading manifest file '../build/com/com.egg-info/SOURCES.txt'
+[9.723s] writing manifest file '../build/com/com.egg-info/SOURCES.txt'
+[9.724s] running build
+[9.724s] running build_py
+[9.729s] copying com/com_sub.py -> /home/orangepi/GM/build/com/build/lib/com
+[9.732s] running install
+[9.734s] running install_lib
+[9.747s] copying /home/orangepi/GM/build/com/build/lib/com/com_sub.py -> /home/orangepi/GM/install/com/lib/python3.10/site-packages/com
+[9.755s] byte-compiling /home/orangepi/GM/install/com/lib/python3.10/site-packages/com/com_sub.py to com_sub.cpython-310.pyc
+[9.764s] running install_data
+[9.767s] running install_egg_info
+[9.804s] removing '/home/orangepi/GM/install/com/lib/python3.10/site-packages/com-0.0.0-py3.10.egg-info' (and everything under it)
+[9.808s] Copying ../build/com/com.egg-info to /home/orangepi/GM/install/com/lib/python3.10/site-packages/com-0.0.0-py3.10.egg-info
+[9.828s] running install_scripts
+[10.041s] Installing com_sub script to /home/orangepi/GM/install/com/lib/com
+[10.045s] writing list of installed files to '/home/orangepi/GM/build/com/install.log'
+[10.367s] Invoked command in '/home/orangepi/GM/com' returned '0': PYTHONPATH=/home/orangepi/GM/build/com/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/install/com/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/com build --build-base /home/orangepi/GM/build/com/build install --record /home/orangepi/GM/build/com/install.log --single-version-externally-managed install_data

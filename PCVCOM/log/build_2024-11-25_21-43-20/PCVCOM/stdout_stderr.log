@@ -1,0 +1,27 @@
+running egg_info
+writing ../build/PCVCOM/PCVCOM.egg-info/PKG-INFO
+writing dependency_links to ../build/PCVCOM/PCVCOM.egg-info/dependency_links.txt
+writing entry points to ../build/PCVCOM/PCVCOM.egg-info/entry_points.txt
+writing requirements to ../build/PCVCOM/PCVCOM.egg-info/requires.txt
+writing top-level names to ../build/PCVCOM/PCVCOM.egg-info/top_level.txt
+reading manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'
+running build
+running build_py
+copying PCVCOM/recvComFloat_val.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+running install
+running install_lib
+copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/recvComFloat_val.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/recvComFloat_val.py to recvComFloat_val.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/PCVCOM/PCVCOM.egg-info to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM-0.0.0-py3.10.egg-info
+running install_scripts
+Installing eg script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+Installing sub_float script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+Installing sub_float_val script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+Installing sub_string script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+Installing validation script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+writing list of installed files to '/home/orangepi/GM/PCVCOM/build/PCVCOM/install.log'

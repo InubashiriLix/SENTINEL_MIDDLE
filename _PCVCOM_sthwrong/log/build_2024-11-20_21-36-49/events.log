@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.002596] (PCVCOM) JobQueued: {'identifier': 'PCVCOM', 'dependencies': OrderedDict()}
+[0.003720] (PCVCOM) JobStarted: {'identifier': 'PCVCOM'}
+[0.097673] (-) TimerEvent: {}
+[0.206275] (-) TimerEvent: {}
+[0.311540] (-) TimerEvent: {}
+[0.414690] (-) TimerEvent: {}
+[0.517690] (-) TimerEvent: {}
+[0.621081] (-) TimerEvent: {}
+[0.724301] (-) TimerEvent: {}
+[0.827533] (-) TimerEvent: {}
+[0.930450] (-) TimerEvent: {}
+[1.033715] (-) TimerEvent: {}
+[1.136977] (-) TimerEvent: {}
+[1.240062] (-) TimerEvent: {}
+[1.343071] (-) TimerEvent: {}
+[1.446084] (-) TimerEvent: {}
+[1.549258] (-) TimerEvent: {}
+[1.652280] (-) TimerEvent: {}
+[1.755479] (-) TimerEvent: {}
+[1.858469] (-) TimerEvent: {}
+[1.961619] (-) TimerEvent: {}
+[2.064518] (-) TimerEvent: {}
+[2.167664] (-) TimerEvent: {}
+[2.270510] (-) TimerEvent: {}
+[2.373726] (-) TimerEvent: {}
+[2.476285] (-) TimerEvent: {}
+[2.580271] (-) TimerEvent: {}
+[2.684180] (-) TimerEvent: {}
+[2.788079] (-) TimerEvent: {}
+[2.891883] (-) TimerEvent: {}
+[2.995776] (-) TimerEvent: {}
+[3.099789] (-) TimerEvent: {}
+[3.203850] (-) TimerEvent: {}
+[3.307835] (-) TimerEvent: {}
+[3.411686] (-) TimerEvent: {}
+[3.515981] (-) TimerEvent: {}
+[3.620189] (-) TimerEvent: {}
+[3.724578] (-) TimerEvent: {}
+[3.828760] (-) TimerEvent: {}
+[3.932033] (-) TimerEvent: {}
+[4.035448] (-) TimerEvent: {}
+[4.138550] (-) TimerEvent: {}
+[4.241840] (-) TimerEvent: {}
+[4.344982] (-) TimerEvent: {}
+[4.448231] (-) TimerEvent: {}
+[4.551441] (-) TimerEvent: {}
+[4.654555] (-) TimerEvent: {}
+[4.757767] (-) TimerEvent: {}
+[4.860868] (-) TimerEvent: {}
+[4.963754] (-) TimerEvent: {}
+[5.066992] (-) TimerEvent: {}
+[5.169927] (-) TimerEvent: {}
+[5.272932] (-) TimerEvent: {}
+[5.375776] (-) TimerEvent: {}
+[5.478752] (-) TimerEvent: {}
+[5.581814] (-) TimerEvent: {}
+[5.684775] (-) TimerEvent: {}
+[5.787679] (-) TimerEvent: {}
+[5.890706] (-) TimerEvent: {}
+[5.993740] (-) TimerEvent: {}
+[6.096589] (-) TimerEvent: {}
+[6.199391] (-) TimerEvent: {}
+[6.301287] (-) TimerEvent: {}
+[6.404347] (-) TimerEvent: {}
+[6.507584] (-) TimerEvent: {}
+[6.610733] (-) TimerEvent: {}
+[6.713928] (-) TimerEvent: {}
+[6.817375] (-) TimerEvent: {}
+[6.920501] (-) TimerEvent: {}
+[7.023759] (-) TimerEvent: {}
+[7.127148] (-) TimerEvent: {}
+[7.230382] (-) TimerEvent: {}
+[7.333723] (-) TimerEvent: {}
+[7.437050] (-) TimerEvent: {}
+[7.539976] (-) TimerEvent: {}
+[7.643130] (-) TimerEvent: {}
+[7.746183] (-) TimerEvent: {}
+[7.849513] (-) TimerEvent: {}
+[7.952631] (-) TimerEvent: {}
+[8.056861] (-) TimerEvent: {}
+[8.160020] (-) TimerEvent: {}
+[8.263401] (-) TimerEvent: {}
+[8.366881] (-) TimerEvent: {}
+[8.470555] (-) TimerEvent: {}
+[8.574180] (-) TimerEvent: {}
+[8.677654] (-) TimerEvent: {}
+[8.692832] (PCVCOM) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/PCVCOM', 'build', '--build-base', '/home/orangepi/GM/PCVCOM/build/PCVCOM/build', 'install', '--record', '/home/orangepi/GM/PCVCOM/build/PCVCOM/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orangepi/GM/PCVCOM/PCVCOM', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-0/default,6493,0', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/orangepi', 'TERM_PROGRAM_VERSION': '3.2a', 'RANGER_LEVEL': '1', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'sensible-pager', 'COLORTERM': 'truecolor', 'ESCDELAY': '25', 'COLCON_PREFIX_PATH': '/home/orangepi/PCVCOM/install:/home/orangepi/GM/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/mysql/bin', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XAUTHORITY': '/home/orangepi/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/orangepi/PCVCOM/install/PCVCOM:/home/orangepi/GM/install/com:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'SUDO_USER': 'orangepi', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/orangepi/GM/PCVCOM/build/PCVCOM', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/orangepi/GM/PCVCOM/build/PCVCOM/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:/home/orangepi/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:/home/orangepi/GM/install/com/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%2', 'EDITOR': 'sensible-editor'}, 'shell': False}
+[8.778033] (-) TimerEvent: {}
+[8.881170] (-) TimerEvent: {}
+[8.984315] (-) TimerEvent: {}
+[9.087272] (-) TimerEvent: {}
+[9.190352] (-) TimerEvent: {}
+[9.293807] (-) TimerEvent: {}
+[9.396804] (-) TimerEvent: {}
+[9.499906] (-) TimerEvent: {}
+[9.603031] (-) TimerEvent: {}
+[9.705896] (-) TimerEvent: {}
+[9.809110] (-) TimerEvent: {}
+[9.911967] (-) TimerEvent: {}
+[10.014689] (-) TimerEvent: {}
+[10.117662] (-) TimerEvent: {}
+[10.227107] (-) TimerEvent: {}
+[10.330213] (-) TimerEvent: {}
+[10.433280] (-) TimerEvent: {}
+[10.536571] (-) TimerEvent: {}
+[10.638123] (-) TimerEvent: {}
+[10.741249] (-) TimerEvent: {}
+[10.844345] (-) TimerEvent: {}
+[10.947385] (-) TimerEvent: {}
+[11.050312] (-) TimerEvent: {}
+[11.153357] (-) TimerEvent: {}
+[11.256477] (-) TimerEvent: {}
+[11.359567] (-) TimerEvent: {}
+[11.462543] (-) TimerEvent: {}
+[11.568574] (-) TimerEvent: {}
+[11.673967] (-) TimerEvent: {}
+[11.779628] (-) TimerEvent: {}
+[11.885047] (-) TimerEvent: {}
+[11.990369] (-) TimerEvent: {}
+[12.083273] (PCVCOM) StdoutLine: {'line': b'running egg_info\n'}
+[12.091117] (-) TimerEvent: {}
+[12.095694] (PCVCOM) StdoutLine: {'line': b'creating ../build/PCVCOM/PCVCOM.egg-info\n'}
+[12.098580] (PCVCOM) StdoutLine: {'line': b'writing ../build/PCVCOM/PCVCOM.egg-info/PKG-INFO\n'}
+[12.107614] (PCVCOM) StdoutLine: {'line': b'writing dependency_links to ../build/PCVCOM/PCVCOM.egg-info/dependency_links.txt\n'}
+[12.116047] (PCVCOM) StdoutLine: {'line': b'writing entry points to ../build/PCVCOM/PCVCOM.egg-info/entry_points.txt\n'}
+[12.117011] (PCVCOM) StdoutLine: {'line': b'writing requirements to ../build/PCVCOM/PCVCOM.egg-info/requires.txt\n'}
+[12.117525] (PCVCOM) StdoutLine: {'line': b'writing top-level names to ../build/PCVCOM/PCVCOM.egg-info/top_level.txt\n'}
+[12.118012] (PCVCOM) StdoutLine: {'line': b"writing manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'\n"}
+[12.135116] (PCVCOM) StdoutLine: {'line': b"reading manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'\n"}
+[12.140119] (PCVCOM) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[12.148660] (PCVCOM) StdoutLine: {'line': b"writing manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'\n"}
+[12.150283] (PCVCOM) StdoutLine: {'line': b'running build\n'}
+[12.151101] (PCVCOM) StdoutLine: {'line': b'running build_py\n'}
+[12.153064] (PCVCOM) StdoutLine: {'line': b'creating /home/orangepi/GM/PCVCOM/build/PCVCOM/build\n'}
+[12.153999] (PCVCOM) StdoutLine: {'line': b'creating /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib\n'}
+[12.154602] (PCVCOM) StdoutLine: {'line': b'creating /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM\n'}
+[12.155357] (PCVCOM) StdoutLine: {'line': b'copying PCVCOM/__init__.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM\n'}
+[12.158222] (PCVCOM) StdoutLine: {'line': b'copying PCVCOM/example.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM\n'}
+[12.166017] (PCVCOM) StdoutLine: {'line': b'copying PCVCOM/recvCom.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM\n'}
+[12.178482] (PCVCOM) StdoutLine: {'line': b'running install\n'}
+[12.182827] (PCVCOM) StdoutLine: {'line': b'running install_lib\n'}
+[12.191684] (-) TimerEvent: {}
+[12.215062] (PCVCOM) StdoutLine: {'line': b'creating /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM\n'}
+[12.216242] (PCVCOM) StdoutLine: {'line': b'copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/__init__.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM\n'}
+[12.218780] (PCVCOM) StdoutLine: {'line': b'copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/example.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM\n'}
+[12.221412] (PCVCOM) StdoutLine: {'line': b'copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/recvCom.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM\n'}
+[12.228297] (PCVCOM) StdoutLine: {'line': b'byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/__init__.py to __init__.cpython-310.pyc\n'}
+[12.232273] (PCVCOM) StdoutLine: {'line': b'byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/example.py to example.cpython-310.pyc\n'}
+[12.241441] (PCVCOM) StdoutLine: {'line': b'byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/recvCom.py to recvCom.cpython-310.pyc\n'}
+[12.249223] (PCVCOM) StdoutLine: {'line': b'running install_data\n'}
+[12.250352] (PCVCOM) StdoutLine: {'line': b'creating /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index\n'}
+[12.251225] (PCVCOM) StdoutLine: {'line': b'creating /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index/resource_index\n'}
+[12.251954] (PCVCOM) StdoutLine: {'line': b'creating /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index/resource_index/packages\n'}
+[12.252877] (PCVCOM) StdoutLine: {'line': b'copying resource/PCVCOM -> /home/orangepi/GM/PCVCOM/install/PCVCOM/share/ament_index/resource_index/packages\n'}
+[12.256251] (PCVCOM) StdoutLine: {'line': b'copying package.xml -> /home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM\n'}
+[12.259174] (PCVCOM) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.292016] (-) TimerEvent: {}
+[12.315335] (PCVCOM) StdoutLine: {'line': b'Copying ../build/PCVCOM/PCVCOM.egg-info to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM-0.0.0-py3.10.egg-info\n'}
+[12.335539] (PCVCOM) StdoutLine: {'line': b'running install_scripts\n'}
+[12.392441] (-) TimerEvent: {}
+[12.496028] (-) TimerEvent: {}
+[12.609373] (-) TimerEvent: {}
+[12.627623] (PCVCOM) StdoutLine: {'line': b'Installing com script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM\n'}
+[12.630370] (PCVCOM) StdoutLine: {'line': b'Installing recv script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM\n'}
+[12.634039] (PCVCOM) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/GM/PCVCOM/build/PCVCOM/install.log'\n"}
+[12.709805] (-) TimerEvent: {}
+[12.747881] (PCVCOM) CommandEnded: {'returncode': -2}
+[12.750835] (PCVCOM) JobEnded: {'identifier': 'PCVCOM', 'rc': 'SIGINT'}
+[12.765422] (-) EventReactorShutdown: {}

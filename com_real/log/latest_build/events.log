@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.003479] (com) JobQueued: {'identifier': 'com', 'dependencies': OrderedDict()}
+[0.003738] (com) JobStarted: {'identifier': 'com'}
+[0.097497] (-) TimerEvent: {}
+[0.200607] (-) TimerEvent: {}
+[0.303316] (-) TimerEvent: {}
+[0.405179] (-) TimerEvent: {}
+[0.508320] (-) TimerEvent: {}
+[0.611184] (-) TimerEvent: {}
+[0.713824] (-) TimerEvent: {}
+[0.816545] (-) TimerEvent: {}
+[0.919075] (-) TimerEvent: {}
+[1.021625] (-) TimerEvent: {}
+[1.124174] (-) TimerEvent: {}
+[1.226844] (-) TimerEvent: {}
+[1.329382] (-) TimerEvent: {}
+[1.431768] (-) TimerEvent: {}
+[1.534359] (-) TimerEvent: {}
+[1.636941] (-) TimerEvent: {}
+[1.739232] (-) TimerEvent: {}
+[1.841831] (-) TimerEvent: {}
+[1.944284] (-) TimerEvent: {}
+[2.046687] (-) TimerEvent: {}
+[2.149275] (-) TimerEvent: {}
+[2.252003] (-) TimerEvent: {}
+[2.354861] (-) TimerEvent: {}
+[2.457372] (-) TimerEvent: {}
+[2.560202] (-) TimerEvent: {}
+[2.663212] (-) TimerEvent: {}
+[2.765497] (-) TimerEvent: {}
+[2.868726] (-) TimerEvent: {}
+[2.971661] (-) TimerEvent: {}
+[3.074768] (-) TimerEvent: {}
+[3.177309] (-) TimerEvent: {}
+[3.280019] (-) TimerEvent: {}
+[3.382913] (-) TimerEvent: {}
+[3.486520] (-) TimerEvent: {}
+[3.589680] (-) TimerEvent: {}
+[3.692816] (-) TimerEvent: {}
+[3.795873] (-) TimerEvent: {}
+[3.898860] (-) TimerEvent: {}
+[4.001899] (-) TimerEvent: {}
+[4.105497] (-) TimerEvent: {}
+[4.209629] (-) TimerEvent: {}
+[4.313486] (-) TimerEvent: {}
+[4.418290] (-) TimerEvent: {}
+[4.522941] (-) TimerEvent: {}
+[4.625230] (-) TimerEvent: {}
+[4.728381] (-) TimerEvent: {}
+[4.831796] (-) TimerEvent: {}
+[4.935215] (-) TimerEvent: {}
+[5.038579] (-) TimerEvent: {}
+[5.141924] (-) TimerEvent: {}
+[5.245269] (-) TimerEvent: {}
+[5.348341] (-) TimerEvent: {}
+[5.451718] (-) TimerEvent: {}
+[5.554969] (-) TimerEvent: {}
+[5.657180] (-) TimerEvent: {}
+[5.760085] (-) TimerEvent: {}
+[5.862482] (-) TimerEvent: {}
+[5.965071] (-) TimerEvent: {}
+[6.067565] (-) TimerEvent: {}
+[6.170167] (-) TimerEvent: {}
+[6.272542] (-) TimerEvent: {}
+[6.375041] (-) TimerEvent: {}
+[6.477303] (-) TimerEvent: {}
+[6.579720] (-) TimerEvent: {}
+[6.682075] (-) TimerEvent: {}
+[6.784711] (-) TimerEvent: {}
+[6.887389] (-) TimerEvent: {}
+[6.990005] (-) TimerEvent: {}
+[7.092747] (-) TimerEvent: {}
+[7.195592] (-) TimerEvent: {}
+[7.298498] (-) TimerEvent: {}
+[7.401305] (-) TimerEvent: {}
+[7.503879] (-) TimerEvent: {}
+[7.606444] (-) TimerEvent: {}
+[7.709053] (-) TimerEvent: {}
+[7.811786] (-) TimerEvent: {}
+[7.914562] (-) TimerEvent: {}
+[8.017300] (-) TimerEvent: {}
+[8.119996] (-) TimerEvent: {}
+[8.222917] (-) TimerEvent: {}
+[8.325611] (-) TimerEvent: {}
+[8.428293] (-) TimerEvent: {}
+[8.530977] (-) TimerEvent: {}
+[8.633771] (-) TimerEvent: {}
+[8.736661] (-) TimerEvent: {}
+[8.839322] (-) TimerEvent: {}
+[8.941912] (-) TimerEvent: {}
+[9.045095] (-) TimerEvent: {}
+[9.148412] (-) TimerEvent: {}
+[9.251717] (-) TimerEvent: {}
+[9.314001] (com) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/com', 'build', '--build-base', '/home/orangepi/GM/com_real/build/com/build', 'install', '--record', '/home/orangepi/GM/com_real/build/com/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orangepi/GM/com_real/com', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-0/default,6493,0', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/orangepi', 'TERM_PROGRAM_VERSION': '3.2a', 'RANGER_LEVEL': '1', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'sensible-pager', 'COLORTERM': 'truecolor', 'ESCDELAY': '25', 'COLCON_PREFIX_PATH': '/home/orangepi/PCVCOM/install:/home/orangepi/GM/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/mysql/bin', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XAUTHORITY': '/home/orangepi/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/orangepi/PCVCOM/install/PCVCOM:/home/orangepi/GM/install/com:/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'SUDO_USER': 'orangepi', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/orangepi/GM/com_real/build/com', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/orangepi/GM/com_real/build/com/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/com_real/install/com/lib/python3.10/site-packages:/home/orangepi/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:/home/orangepi/GM/install/com/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TMUX_PANE': '%2', 'EDITOR': 'sensible-editor'}, 'shell': False}
+[9.357267] (-) TimerEvent: {}
+[9.464867] (-) TimerEvent: {}
+[9.567112] (-) TimerEvent: {}
+[9.669672] (-) TimerEvent: {}
+[9.772189] (-) TimerEvent: {}
+[9.874819] (-) TimerEvent: {}
+[9.977475] (-) TimerEvent: {}
+[10.080270] (-) TimerEvent: {}
+[10.183292] (-) TimerEvent: {}
+[10.285879] (-) TimerEvent: {}
+[10.388697] (-) TimerEvent: {}
+[10.491128] (-) TimerEvent: {}
+[10.593610] (-) TimerEvent: {}
+[10.696033] (-) TimerEvent: {}
+[10.798509] (-) TimerEvent: {}
+[10.901149] (-) TimerEvent: {}
+[11.003647] (-) TimerEvent: {}
+[11.106400] (-) TimerEvent: {}
+[11.209010] (-) TimerEvent: {}
+[11.311212] (-) TimerEvent: {}
+[11.413414] (-) TimerEvent: {}
+[11.516150] (-) TimerEvent: {}
+[11.619040] (-) TimerEvent: {}
+[11.721472] (-) TimerEvent: {}
+[11.824308] (-) TimerEvent: {}
+[11.927093] (-) TimerEvent: {}
+[12.030096] (-) TimerEvent: {}
+[12.133083] (-) TimerEvent: {}
+[12.235946] (-) TimerEvent: {}
+[12.338897] (-) TimerEvent: {}
+[12.441438] (-) TimerEvent: {}
+[12.544000] (-) TimerEvent: {}
+[12.646613] (-) TimerEvent: {}
+[12.715360] (com) StdoutLine: {'line': b'running egg_info\n'}
+[12.727729] (com) StdoutLine: {'line': b'writing ../build/com/com.egg-info/PKG-INFO\n'}
+[12.735836] (com) StdoutLine: {'line': b'writing dependency_links to ../build/com/com.egg-info/dependency_links.txt\n'}
+[12.742876] (com) StdoutLine: {'line': b'writing entry points to ../build/com/com.egg-info/entry_points.txt\n'}
+[12.747098] (-) TimerEvent: {}
+[12.750212] (com) StdoutLine: {'line': b'writing requirements to ../build/com/com.egg-info/requires.txt\n'}
+[12.753614] (com) StdoutLine: {'line': b'writing top-level names to ../build/com/com.egg-info/top_level.txt\n'}
+[12.776035] (com) StdoutLine: {'line': b"reading manifest file '../build/com/com.egg-info/SOURCES.txt'\n"}
+[12.801114] (com) StdoutLine: {'line': b"writing manifest file '../build/com/com.egg-info/SOURCES.txt'\n"}
+[12.802601] (com) StdoutLine: {'line': b'running build\n'}
+[12.803308] (com) StdoutLine: {'line': b'running build_py\n'}
+[12.813302] (com) StdoutLine: {'line': b'running install\n'}
+[12.818097] (com) StdoutLine: {'line': b'running install_lib\n'}
+[12.847542] (-) TimerEvent: {}
+[12.865603] (com) StdoutLine: {'line': b'running install_data\n'}
+[12.868440] (com) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.885532] (com) StdoutLine: {'line': b"removing '/home/orangepi/GM/com_real/install/com/lib/python3.10/site-packages/com-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.890720] (com) StdoutLine: {'line': b'Copying ../build/com/com.egg-info to /home/orangepi/GM/com_real/install/com/lib/python3.10/site-packages/com-0.0.0-py3.10.egg-info\n'}
+[12.941061] (com) StdoutLine: {'line': b'running install_scripts\n'}
+[12.948035] (-) TimerEvent: {}
+[13.051429] (-) TimerEvent: {}
+[13.154456] (-) TimerEvent: {}
+[13.205762] (com) StdoutLine: {'line': b'Installing com_sub script to /home/orangepi/GM/com_real/install/com/lib/com\n'}
+[13.210547] (com) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/GM/com_real/build/com/install.log'\n"}
+[13.255211] (-) TimerEvent: {}
+[13.359752] (-) TimerEvent: {}
+[13.463811] (-) TimerEvent: {}
+[13.567206] (-) TimerEvent: {}
+[13.597361] (com) CommandEnded: {'returncode': 0}
+[13.667747] (-) TimerEvent: {}
+[13.771267] (-) TimerEvent: {}
+[13.855775] (com) JobEnded: {'identifier': 'com', 'rc': 0}
+[13.885214] (-) TimerEvent: {}
+[13.886214] (-) EventReactorShutdown: {}

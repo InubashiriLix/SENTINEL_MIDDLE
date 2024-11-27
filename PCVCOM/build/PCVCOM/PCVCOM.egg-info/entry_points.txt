@@ -1,0 +1,7 @@
+[console_scripts]
+eg = PCVCOM.example:main
+sub_float = PCVCOM.recvComFloat:main
+sub_float_val = PCVCOM.recvComFloat_val:main
+sub_string = PCVCOM.recvComString:main
+validation = PCVCOM.validation
+

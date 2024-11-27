@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c.o"
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c.o.d"
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o"
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o.d"
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o"
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o.d"
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o"
+  "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o.d"
+  "libhero_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libhero_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c"
+  "rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c"
+  "rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c"
+  "rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

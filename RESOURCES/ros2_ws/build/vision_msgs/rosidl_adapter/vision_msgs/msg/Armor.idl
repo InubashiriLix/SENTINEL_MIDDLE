@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_msgs/msg/Armor.msg
+// generated code does not contain a copyright notice
+
+#include "vision_msgs/msg/Point.idl"
+
+module vision_msgs {
+  module msg {
+    module Armor_Constants {
+      const uint8 BLUE = 0;
+      const uint8 RED = 1;
+      const uint8 ARMOR = 0;
+      const uint8 ENERGY = 1;
+      const uint8 ENEMY = 2;
+    };
+    struct Armor {
+      uint8 color;
+
+      uint8 id;
+
+      float dis;
+
+      uint8 armor_type;
+
+      sequence<vision_msgs::msg::Point> points;
+    };
+  };
+};

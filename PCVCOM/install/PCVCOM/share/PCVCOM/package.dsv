@@ -1,0 +1,6 @@
+source;share/PCVCOM/hook/pythonpath.ps1
+source;share/PCVCOM/hook/pythonpath.dsv
+source;share/PCVCOM/hook/pythonpath.sh
+source;share/PCVCOM/hook/ament_prefix_path.ps1
+source;share/PCVCOM/hook/ament_prefix_path.dsv
+source;share/PCVCOM/hook/ament_prefix_path.sh

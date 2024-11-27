@@ -1,0 +1,9 @@
+{
+  "package_name": "vision_msgs",
+  "non_idl_tuples": [
+    "/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs:msg/Point.msg",
+    "/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs:msg/Armor.msg",
+    "/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs:msg/Armors.msg",
+    "/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs:msg/AutoaimState.msg"
+  ]
+}

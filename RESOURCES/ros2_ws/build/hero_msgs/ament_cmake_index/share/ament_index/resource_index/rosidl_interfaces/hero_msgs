@@ -1,0 +1,12 @@
+msg/AutoAIM.idl
+msg/AutoAIM.msg
+msg/DualLoopPIDWithFilter.idl
+msg/DualLoopPIDWithFilter.msg
+srv/ResetMotorPosition.idl
+srv/ResetMotorPosition.srv
+srv/ResetMotorPosition_Request.msg
+srv/ResetMotorPosition_Response.msg
+srv/VisionModeSwitch.idl
+srv/VisionModeSwitch.srv
+srv/VisionModeSwitch_Request.msg
+srv/VisionModeSwitch_Response.msg

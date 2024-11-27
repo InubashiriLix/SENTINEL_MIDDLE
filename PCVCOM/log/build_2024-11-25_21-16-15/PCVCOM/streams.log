@@ -1,0 +1,29 @@
+[0.953s] Invoking command in '/home/orangepi/GM/PCVCOM/PCVCOM': PYTHONPATH=/home/orangepi/GM/PCVCOM/build/PCVCOM/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/PCVCOM build --build-base /home/orangepi/GM/PCVCOM/build/PCVCOM/build install --record /home/orangepi/GM/PCVCOM/build/PCVCOM/install.log --single-version-externally-managed install_data
+[1.245s] running egg_info
+[1.246s] writing ../build/PCVCOM/PCVCOM.egg-info/PKG-INFO
+[1.246s] writing dependency_links to ../build/PCVCOM/PCVCOM.egg-info/dependency_links.txt
+[1.249s] writing entry points to ../build/PCVCOM/PCVCOM.egg-info/entry_points.txt
+[1.250s] writing requirements to ../build/PCVCOM/PCVCOM.egg-info/requires.txt
+[1.251s] writing top-level names to ../build/PCVCOM/PCVCOM.egg-info/top_level.txt
+[1.265s] reading manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'
+[1.266s] adding license file 'LICENSE'
+[1.268s] writing manifest file '../build/PCVCOM/PCVCOM.egg-info/SOURCES.txt'
+[1.268s] running build
+[1.269s] running build_py
+[1.269s] copying PCVCOM/recvComFloat_val.py -> /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM
+[1.269s] running install
+[1.270s] running install_lib
+[1.272s] copying /home/orangepi/GM/PCVCOM/build/PCVCOM/build/lib/PCVCOM/recvComFloat_val.py -> /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM
+[1.273s] byte-compiling /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM/recvComFloat_val.py to recvComFloat_val.cpython-310.pyc
+[1.276s] running install_data
+[1.276s] running install_egg_info
+[1.279s] removing '/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM-0.0.0-py3.10.egg-info' (and everything under it)
+[1.280s] Copying ../build/PCVCOM/PCVCOM.egg-info to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages/PCVCOM-0.0.0-py3.10.egg-info
+[1.281s] running install_scripts
+[1.314s] Installing eg script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.314s] Installing sub_float script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.315s] Installing sub_float_val script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.316s] Installing sub_string script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.317s] Installing validation script to /home/orangepi/GM/PCVCOM/install/PCVCOM/lib/PCVCOM
+[1.319s] writing list of installed files to '/home/orangepi/GM/PCVCOM/build/PCVCOM/install.log'
+[1.420s] Invoked command in '/home/orangepi/GM/PCVCOM/PCVCOM' returned '0': PYTHONPATH=/home/orangepi/GM/PCVCOM/build/PCVCOM/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/PCVCOM build --build-base /home/orangepi/GM/PCVCOM/build/PCVCOM/build install --record /home/orangepi/GM/PCVCOM/build/PCVCOM/install.log --single-version-externally-managed install_data

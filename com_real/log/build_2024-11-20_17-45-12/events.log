@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.003070] (com) JobQueued: {'identifier': 'com', 'dependencies': OrderedDict()}
+[0.004111] (com) JobStarted: {'identifier': 'com'}
+[0.097164] (-) TimerEvent: {}
+[0.198283] (-) TimerEvent: {}
+[0.299826] (-) TimerEvent: {}
+[0.401248] (-) TimerEvent: {}
+[0.502540] (-) TimerEvent: {}
+[0.603985] (-) TimerEvent: {}
+[0.705354] (-) TimerEvent: {}
+[0.806803] (-) TimerEvent: {}
+[0.908343] (-) TimerEvent: {}
+[1.009754] (-) TimerEvent: {}
+[1.111146] (-) TimerEvent: {}
+[1.212420] (-) TimerEvent: {}
+[1.313694] (-) TimerEvent: {}
+[1.414989] (-) TimerEvent: {}
+[1.516263] (-) TimerEvent: {}
+[1.617700] (-) TimerEvent: {}
+[1.719049] (-) TimerEvent: {}
+[1.820409] (-) TimerEvent: {}
+[1.921693] (-) TimerEvent: {}
+[2.023043] (-) TimerEvent: {}
+[2.124377] (-) TimerEvent: {}
+[2.225757] (-) TimerEvent: {}
+[2.327157] (-) TimerEvent: {}
+[2.428470] (-) TimerEvent: {}
+[2.529773] (-) TimerEvent: {}
+[2.631255] (-) TimerEvent: {}
+[2.732647] (-) TimerEvent: {}
+[2.833938] (-) TimerEvent: {}
+[2.935263] (-) TimerEvent: {}
+[3.036762] (-) TimerEvent: {}
+[3.138561] (-) TimerEvent: {}
+[3.240109] (-) TimerEvent: {}
+[3.341247] (-) TimerEvent: {}
+[3.442727] (-) TimerEvent: {}
+[3.544085] (-) TimerEvent: {}
+[3.645382] (-) TimerEvent: {}
+[3.746807] (-) TimerEvent: {}
+[3.848289] (-) TimerEvent: {}
+[3.949652] (-) TimerEvent: {}
+[4.051186] (-) TimerEvent: {}
+[4.152568] (-) TimerEvent: {}
+[4.253835] (-) TimerEvent: {}
+[4.355234] (-) TimerEvent: {}
+[4.456623] (-) TimerEvent: {}
+[4.558035] (-) TimerEvent: {}
+[4.659393] (-) TimerEvent: {}
+[4.760831] (-) TimerEvent: {}
+[4.862183] (-) TimerEvent: {}
+[4.963620] (-) TimerEvent: {}
+[5.065057] (-) TimerEvent: {}
+[5.166619] (-) TimerEvent: {}
+[5.267988] (-) TimerEvent: {}
+[5.369261] (-) TimerEvent: {}
+[5.470662] (-) TimerEvent: {}
+[5.571991] (-) TimerEvent: {}
+[5.673428] (-) TimerEvent: {}
+[5.774705] (-) TimerEvent: {}
+[5.876091] (-) TimerEvent: {}
+[5.977424] (-) TimerEvent: {}
+[6.078843] (-) TimerEvent: {}
+[6.180180] (-) TimerEvent: {}
+[6.281556] (-) TimerEvent: {}
+[6.383038] (-) TimerEvent: {}
+[6.484333] (-) TimerEvent: {}
+[6.585620] (-) TimerEvent: {}
+[6.687158] (-) TimerEvent: {}
+[6.788612] (-) TimerEvent: {}
+[6.890275] (-) TimerEvent: {}
+[6.974638] (com) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/com', 'build', '--build-base', '/home/orangepi/GM/build/com/build', 'install', '--record', '/home/orangepi/GM/build/com/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orangepi/GM/com', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'RANGER_LEVEL': '1', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'sensible-pager', 'COLORTERM': 'truecolor', 'ESCDELAY': '25', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XAUTHORITY': '/home/orangepi/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'SUDO_USER': 'orangepi', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/orangepi/GM/build/com', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/orangepi/GM/build/com/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/install/com/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'EDITOR': 'sensible-editor'}, 'shell': False}
+[6.991802] (-) TimerEvent: {}
+[7.093842] (-) TimerEvent: {}
+[7.195222] (-) TimerEvent: {}
+[7.296494] (-) TimerEvent: {}
+[7.397831] (-) TimerEvent: {}
+[7.499377] (-) TimerEvent: {}
+[7.600741] (-) TimerEvent: {}
+[7.702246] (-) TimerEvent: {}
+[7.803760] (-) TimerEvent: {}
+[7.905168] (-) TimerEvent: {}
+[8.006552] (-) TimerEvent: {}
+[8.108025] (-) TimerEvent: {}
+[8.209314] (-) TimerEvent: {}
+[8.310614] (-) TimerEvent: {}
+[8.411957] (-) TimerEvent: {}
+[8.513221] (-) TimerEvent: {}
+[8.614613] (-) TimerEvent: {}
+[8.716055] (-) TimerEvent: {}
+[8.817361] (-) TimerEvent: {}
+[8.918670] (-) TimerEvent: {}
+[9.020185] (-) TimerEvent: {}
+[9.121649] (-) TimerEvent: {}
+[9.223061] (-) TimerEvent: {}
+[9.324341] (-) TimerEvent: {}
+[9.425766] (-) TimerEvent: {}
+[9.443594] (com) StdoutLine: {'line': b'running egg_info\n'}
+[9.449089] (com) StdoutLine: {'line': b'writing ../build/com/com.egg-info/PKG-INFO\n'}
+[9.452514] (com) StdoutLine: {'line': b'writing dependency_links to ../build/com/com.egg-info/dependency_links.txt\n'}
+[9.466512] (com) StdoutLine: {'line': b'writing entry points to ../build/com/com.egg-info/entry_points.txt\n'}
+[9.470680] (com) StdoutLine: {'line': b'writing requirements to ../build/com/com.egg-info/requires.txt\n'}
+[9.474978] (com) StdoutLine: {'line': b'writing top-level names to ../build/com/com.egg-info/top_level.txt\n'}
+[9.505132] (com) StdoutLine: {'line': b"reading manifest file '../build/com/com.egg-info/SOURCES.txt'\n"}
+[9.519222] (com) StdoutLine: {'line': b"writing manifest file '../build/com/com.egg-info/SOURCES.txt'\n"}
+[9.520317] (com) StdoutLine: {'line': b'running build\n'}
+[9.521823] (com) StdoutLine: {'line': b'running build_py\n'}
+[9.525883] (-) TimerEvent: {}
+[9.527272] (com) StdoutLine: {'line': b'copying com/com_sub.py -> /home/orangepi/GM/build/com/build/lib/com\n'}
+[9.530506] (com) StdoutLine: {'line': b'running install\n'}
+[9.532633] (com) StdoutLine: {'line': b'running install_lib\n'}
+[9.545026] (com) StdoutLine: {'line': b'copying /home/orangepi/GM/build/com/build/lib/com/com_sub.py -> /home/orangepi/GM/install/com/lib/python3.10/site-packages/com\n'}
+[9.552776] (com) StdoutLine: {'line': b'byte-compiling /home/orangepi/GM/install/com/lib/python3.10/site-packages/com/com_sub.py to com_sub.cpython-310.pyc\n'}
+[9.560802] (com) StdoutLine: {'line': b'running install_data\n'}
+[9.568874] (com) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.601616] (com) StdoutLine: {'line': b"removing '/home/orangepi/GM/install/com/lib/python3.10/site-packages/com-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.606693] (com) StdoutLine: {'line': b'Copying ../build/com/com.egg-info to /home/orangepi/GM/install/com/lib/python3.10/site-packages/com-0.0.0-py3.10.egg-info\n'}
+[9.626204] (-) TimerEvent: {}
+[9.627365] (com) StdoutLine: {'line': b'running install_scripts\n'}
+[9.726462] (-) TimerEvent: {}
+[9.828016] (-) TimerEvent: {}
+[9.836111] (com) StdoutLine: {'line': b'Installing com_sub script to /home/orangepi/GM/install/com/lib/com\n'}
+[9.839756] (com) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/GM/build/com/install.log'\n"}
+[9.928518] (-) TimerEvent: {}
+[10.030183] (-) TimerEvent: {}
+[10.131906] (-) TimerEvent: {}
+[10.159413] (com) CommandEnded: {'returncode': 0}
+[10.232071] (-) TimerEvent: {}
+[10.334500] (-) TimerEvent: {}
+[10.341581] (com) JobEnded: {'identifier': 'com', 'rc': 0}
+[10.348287] (-) EventReactorShutdown: {}

@@ -1,0 +1,112 @@
+[0.836s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.837s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7e72baf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7e72b430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7e72b430>>)
+[2.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.884s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/GM/PCVCOM'
+[2.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.888s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extensions ['ignore', 'ignore_ament_install']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extension 'ignore'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extension 'ignore_ament_install'
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extensions ['colcon_pkg']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extension 'colcon_pkg'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extensions ['colcon_meta']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extension 'colcon_meta'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extensions ['ros']
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(PCVCOM) by extension 'ros'
+[3.010s] DEBUG:colcon.colcon_core.package_identification:Package 'PCVCOM' with type 'ros.ament_python' and name 'PCVCOM'
+[3.012s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.014s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.345s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'cmake_args' from command line to 'None'
+[3.345s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'cmake_target' from command line to 'None'
+[3.346s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.346s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'cmake_clean_cache' from command line to 'False'
+[3.346s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'cmake_clean_first' from command line to 'False'
+[3.346s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'cmake_force_configure' from command line to 'False'
+[3.346s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'ament_cmake_args' from command line to 'None'
+[3.346s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'catkin_cmake_args' from command line to 'None'
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'PCVCOM' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.347s] DEBUG:colcon.colcon_core.verb:Building package 'PCVCOM' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/GM/PCVCOM/build/PCVCOM', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/GM/PCVCOM/install/PCVCOM', 'merge_install': False, 'path': '/home/orangepi/GM/PCVCOM/PCVCOM', 'symlink_install': False, 'test_result_base': None}
+[3.348s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.355s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/GM/PCVCOM/PCVCOM' with build type 'ament_python'
+[3.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('PCVCOM', 'ament_prefix_path')
+[3.384s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/hook/ament_prefix_path.ps1'
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/hook/ament_prefix_path.dsv'
+[3.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/hook/ament_prefix_path.sh'
+[3.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.487s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/orangepi/PCVCOM/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[3.488s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/orangepi/GM/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[3.488s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/orangepi/PCVCOM/install/PCVCOM' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.489s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/orangepi/GM/install/com' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[7.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/GM/PCVCOM/PCVCOM'
+[7.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/PCVCOM/PCVCOM': PYTHONPATH=/home/orangepi/GM/PCVCOM/build/PCVCOM/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/PCVCOM build --build-base /home/orangepi/GM/PCVCOM/build/PCVCOM/build install --record /home/orangepi/GM/PCVCOM/build/PCVCOM/install.log --single-version-externally-managed install_data
+[16.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/PCVCOM/PCVCOM' returned '0': PYTHONPATH=/home/orangepi/GM/PCVCOM/build/PCVCOM/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/PCVCOM build --build-base /home/orangepi/GM/PCVCOM/build/PCVCOM/build install --record /home/orangepi/GM/PCVCOM/build/PCVCOM/install.log --single-version-externally-managed install_data
+[16.086s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/PCVCOM/install/PCVCOM' for CMake module files
+[16.093s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/PCVCOM/install/PCVCOM' for CMake config files
+[16.105s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/PCVCOM/install/PCVCOM/lib'
+[16.109s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/PCVCOM/install/PCVCOM/bin'
+[16.109s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/pkgconfig/PCVCOM.pc'
+[16.112s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/PCVCOM/install/PCVCOM/lib/python3.10/site-packages'
+[16.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('PCVCOM', 'pythonpath')
+[16.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/hook/pythonpath.ps1'
+[16.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/hook/pythonpath.dsv'
+[16.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/hook/pythonpath.sh'
+[16.166s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/PCVCOM/install/PCVCOM/bin'
+[16.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(PCVCOM)
+[16.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/package.ps1'
+[16.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/package.dsv'
+[16.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/package.sh'
+[16.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/package.bash'
+[16.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/PCVCOM/install/PCVCOM/share/PCVCOM/package.zsh'
+[16.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/PCVCOM/install/PCVCOM/share/colcon-core/packages/PCVCOM)
+[16.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.237s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.365s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.774s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.777s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/PCVCOM/install/local_setup.ps1'
+[16.789s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/GM/PCVCOM/install/_local_setup_util_ps1.py'
+[16.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/PCVCOM/install/setup.ps1'
+[16.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/PCVCOM/install/local_setup.sh'
+[16.821s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/GM/PCVCOM/install/_local_setup_util_sh.py'
+[16.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/PCVCOM/install/setup.sh'
+[16.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/PCVCOM/install/local_setup.bash'
+[16.865s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/PCVCOM/install/setup.bash'
+[16.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/PCVCOM/install/local_setup.zsh'
+[16.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/PCVCOM/install/setup.zsh'

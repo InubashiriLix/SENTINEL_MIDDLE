@@ -1,0 +1,112 @@
+[1.280s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.280s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7f0abbb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7f0ab4f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7f0ab4f0>>)
+[3.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.720s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/GM/com_real'
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.834s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extensions ['ignore', 'ignore_ament_install']
+[3.834s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extension 'ignore'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extension 'ignore_ament_install'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extensions ['colcon_pkg']
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extension 'colcon_pkg'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extensions ['colcon_meta']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extension 'colcon_meta'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extensions ['ros']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(com) by extension 'ros'
+[3.862s] DEBUG:colcon.colcon_core.package_identification:Package 'com' with type 'ros.ament_python' and name 'com'
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.865s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.865s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.868s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.869s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.186s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'cmake_args' from command line to 'None'
+[4.186s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'cmake_target' from command line to 'None'
+[4.186s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'cmake_clean_cache' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'cmake_clean_first' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'cmake_force_configure' from command line to 'False'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'ament_cmake_args' from command line to 'None'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'catkin_cmake_args' from command line to 'None'
+[4.187s] Level 5:colcon.colcon_core.verb:set package 'com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.188s] DEBUG:colcon.colcon_core.verb:Building package 'com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/GM/com_real/build/com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/GM/com_real/install/com', 'merge_install': False, 'path': '/home/orangepi/GM/com_real/com', 'symlink_install': False, 'test_result_base': None}
+[4.188s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.195s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/GM/com_real/com' with build type 'ament_python'
+[4.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('com', 'ament_prefix_path')
+[4.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/com_real/install/com/share/com/hook/ament_prefix_path.ps1'
+[4.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/com_real/install/com/share/com/hook/ament_prefix_path.dsv'
+[4.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/com_real/install/com/share/com/hook/ament_prefix_path.sh'
+[4.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.332s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/orangepi/PCVCOM/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[4.333s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/orangepi/GM/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[4.333s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/orangepi/PCVCOM/install/PCVCOM' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.333s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/orangepi/GM/install/com' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[8.448s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/GM/com_real/com'
+[8.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/com_real/com': PYTHONPATH=/home/orangepi/GM/com_real/build/com/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/com_real/install/com/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/com build --build-base /home/orangepi/GM/com_real/build/com/build install --record /home/orangepi/GM/com_real/build/com/install.log --single-version-externally-managed install_data
+[17.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/com_real/com' returned '0': PYTHONPATH=/home/orangepi/GM/com_real/build/com/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/GM/com_real/install/com/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/com build --build-base /home/orangepi/GM/com_real/build/com/build install --record /home/orangepi/GM/com_real/build/com/install.log --single-version-externally-managed install_data
+[17.888s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/com_real/install/com' for CMake module files
+[17.894s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/com_real/install/com' for CMake config files
+[17.908s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/com_real/install/com/lib'
+[17.913s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/com_real/install/com/bin'
+[17.914s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/com_real/install/com/lib/pkgconfig/com.pc'
+[17.916s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/com_real/install/com/lib/python3.10/site-packages'
+[17.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('com', 'pythonpath')
+[17.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/com_real/install/com/share/com/hook/pythonpath.ps1'
+[17.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/com_real/install/com/share/com/hook/pythonpath.dsv'
+[17.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/com_real/install/com/share/com/hook/pythonpath.sh'
+[17.977s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/com_real/install/com/bin'
+[17.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(com)
+[17.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/com_real/install/com/share/com/package.ps1'
+[17.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/com_real/install/com/share/com/package.dsv'
+[17.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/com_real/install/com/share/com/package.sh'
+[18.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/com_real/install/com/share/com/package.bash'
+[18.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/com_real/install/com/share/com/package.zsh'
+[18.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/com_real/install/com/share/colcon-core/packages/com)
+[18.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.055s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.057s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.058s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.188s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.188s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.294s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/com_real/install/local_setup.ps1'
+[19.310s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/GM/com_real/install/_local_setup_util_ps1.py'
+[19.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/com_real/install/setup.ps1'
+[19.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/com_real/install/local_setup.sh'
+[19.346s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/GM/com_real/install/_local_setup_util_sh.py'
+[19.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/com_real/install/setup.sh'
+[19.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/com_real/install/local_setup.bash'
+[19.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/com_real/install/setup.bash'
+[19.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/com_real/install/local_setup.zsh'
+[19.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/com_real/install/setup.zsh'

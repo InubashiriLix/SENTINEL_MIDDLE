@@ -1,0 +1,3 @@
+[console_scripts]
+com_sub = com.com_sub:main
+
