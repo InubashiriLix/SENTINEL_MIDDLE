@@ -74,6 +74,10 @@ CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/dual_loop_pid_with
 CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__builder.hpp
 CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.hpp
 CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__traits.hpp
+CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/motion.hpp
+CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/motion__builder.hpp
+CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/motion__struct.hpp
+CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/motion__traits.hpp
 CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/srv/vision_mode_switch.hpp
 CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/srv/detail/vision_mode_switch__builder.hpp
 CMakeFiles/hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/srv/detail/vision_mode_switch__struct.hpp
@@ -100,6 +104,7 @@ rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: /opt/ros/humble/share/rosidl_ge
 rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: rosidl_adapter/hero_msgs/msg/AutoAIM.idl
 rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: rosidl_adapter/hero_msgs/msg/DualLoopPIDWithFilter.idl
+rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: rosidl_adapter/hero_msgs/msg/Motion.idl
 rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: rosidl_adapter/hero_msgs/srv/VisionModeSwitch.idl
 rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: rosidl_adapter/hero_msgs/srv/ResetMotorPosition.idl
 rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -158,6 +163,18 @@ rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.hpp:
 rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__traits.hpp: rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__traits.hpp
 
+rosidl_generator_cpp/hero_msgs/msg/motion.hpp: rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hero_msgs/msg/motion.hpp
+
+rosidl_generator_cpp/hero_msgs/msg/detail/motion__builder.hpp: rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hero_msgs/msg/detail/motion__builder.hpp
+
+rosidl_generator_cpp/hero_msgs/msg/detail/motion__struct.hpp: rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hero_msgs/msg/detail/motion__struct.hpp
+
+rosidl_generator_cpp/hero_msgs/msg/detail/motion__traits.hpp: rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hero_msgs/msg/detail/motion__traits.hpp
+
 rosidl_generator_cpp/hero_msgs/srv/vision_mode_switch.hpp: rosidl_generator_cpp/hero_msgs/msg/auto_aim.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hero_msgs/srv/vision_mode_switch.hpp
 
@@ -190,7 +207,11 @@ hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/auto_aim__traits.hpp
 hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__builder.hpp
 hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.hpp
 hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__traits.hpp
+hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/motion__builder.hpp
+hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/motion__struct.hpp
+hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/detail/motion__traits.hpp
 hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/dual_loop_pid_with_filter.hpp
+hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/msg/motion.hpp
 hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/srv/detail/reset_motor_position__builder.hpp
 hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/srv/detail/reset_motor_position__struct.hpp
 hero_msgs__cpp: rosidl_generator_cpp/hero_msgs/srv/detail/reset_motor_position__traits.hpp

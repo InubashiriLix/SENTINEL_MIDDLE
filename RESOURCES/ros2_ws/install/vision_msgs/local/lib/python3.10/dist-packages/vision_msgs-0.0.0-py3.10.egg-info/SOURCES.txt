@@ -4,3 +4,8 @@ vision_msgs.egg-info/PKG-INFO
 vision_msgs.egg-info/SOURCES.txt
 vision_msgs.egg-info/dependency_links.txt
 vision_msgs.egg-info/top_level.txt
+vision_msgs/msg/__init__.py
+vision_msgs/msg/_armor.py
+vision_msgs/msg/_armors.py
+vision_msgs/msg/_autoaim_state.py
+vision_msgs/msg/_point.py

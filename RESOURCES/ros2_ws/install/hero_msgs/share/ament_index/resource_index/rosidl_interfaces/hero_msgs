@@ -2,6 +2,8 @@ msg/AutoAIM.idl
 msg/AutoAIM.msg
 msg/DualLoopPIDWithFilter.idl
 msg/DualLoopPIDWithFilter.msg
+msg/Motion.idl
+msg/Motion.msg
 srv/ResetMotorPosition.idl
 srv/ResetMotorPosition.srv
 srv/ResetMotorPosition_Request.msg

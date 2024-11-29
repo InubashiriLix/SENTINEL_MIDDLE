@@ -1,0 +1,1161 @@
+[0.000000] (-) TimerEvent: {}
+[0.001294] (hero_msgs) JobQueued: {'identifier': 'hero_msgs', 'dependencies': OrderedDict()}
+[0.001605] (vision_msgs) JobQueued: {'identifier': 'vision_msgs', 'dependencies': OrderedDict()}
+[0.001735] (contact) JobQueued: {'identifier': 'contact', 'dependencies': OrderedDict([('hero_msgs', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs')])}
+[0.001925] (hero_msgs) JobStarted: {'identifier': 'hero_msgs'}
+[0.008067] (vision_msgs) JobStarted: {'identifier': 'vision_msgs'}
+[0.014642] (hero_msgs) JobProgress: {'identifier': 'hero_msgs', 'progress': 'cmake'}
+[0.016532] (hero_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.023744] (vision_msgs) JobProgress: {'identifier': 'vision_msgs', 'progress': 'cmake'}
+[0.024971] (vision_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060957] (vision_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.063034] (hero_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098703] (-) TimerEvent: {}
+[0.199432] (-) TimerEvent: {}
+[0.299903] (-) TimerEvent: {}
+[0.333716] (vision_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.342938] (vision_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.356720] (vision_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.359937] (hero_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.392166] (hero_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.395266] (hero_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399937] (-) TimerEvent: {}
+[0.402643] (hero_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.410524] (vision_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.414976] (hero_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.431056] (hero_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.445137] (vision_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.463688] (hero_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.472171] (hero_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.498565] (vision_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500073] (-) TimerEvent: {}
+[0.601020] (-) TimerEvent: {}
+[0.702239] (-) TimerEvent: {}
+[0.803519] (-) TimerEvent: {}
+[0.904478] (-) TimerEvent: {}
+[1.005186] (-) TimerEvent: {}
+[1.078562] (hero_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.105287] (-) TimerEvent: {}
+[1.114326] (vision_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.205446] (-) TimerEvent: {}
+[1.306143] (-) TimerEvent: {}
+[1.406891] (-) TimerEvent: {}
+[1.507981] (-) TimerEvent: {}
+[1.609024] (-) TimerEvent: {}
+[1.664030] (vision_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.709419] (-) TimerEvent: {}
+[1.810597] (-) TimerEvent: {}
+[1.875427] (hero_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.910848] (-) TimerEvent: {}
+[2.011911] (-) TimerEvent: {}
+[2.112949] (-) TimerEvent: {}
+[2.194981] (hero_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.213302] (-) TimerEvent: {}
+[2.271377] (hero_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.309898] (hero_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.310864] (hero_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.311268] (hero_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.313365] (-) TimerEvent: {}
+[2.327372] (vision_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.359035] (hero_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.361714] (hero_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.362883] (hero_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.367606] (hero_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.371228] (vision_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.414271] (-) TimerEvent: {}
+[2.431841] (vision_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.432721] (vision_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.433114] (vision_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.491806] (vision_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.492967] (vision_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.496037] (vision_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.514076] (-) TimerEvent: {}
+[2.517852] (hero_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.521866] (hero_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs\n'}
+[2.549992] (hero_msgs) CommandEnded: {'returncode': 0}
+[2.552853] (hero_msgs) JobProgress: {'identifier': 'hero_msgs', 'progress': 'build'}
+[2.554465] (hero_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.578741] (vision_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.608910] (vision_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs\n'}
+[2.614228] (-) TimerEvent: {}
+[2.638199] (vision_msgs) CommandEnded: {'returncode': 0}
+[2.641182] (vision_msgs) JobProgress: {'identifier': 'vision_msgs', 'progress': 'build'}
+[2.642248] (vision_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.700298] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.714448] (-) TimerEvent: {}
+[2.732643] (hero_msgs) StdoutLine: {'line': b'[  1%] Built target hero_msgs__cpp\n'}
+[2.736001] (hero_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/srv/detail/vision_mode_switch__functions.c.o\x1b[0m\n'}
+[2.742978] (hero_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.o\x1b[0m\n'}
+[2.743573] (hero_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.c.o\x1b[0m\n'}
+[2.745081] (hero_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.o\x1b[0m\n'}
+[2.745575] (hero_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/auto_aim__functions.c.o\x1b[0m\n'}
+[2.756768] (hero_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_hero_msgs\n'}
+[2.782328] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.790888] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.791654] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.814562] (-) TimerEvent: {}
+[2.832385] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.838821] (vision_msgs) StdoutLine: {'line': b'[  1%] Built target vision_msgs__cpp\n'}
+[2.846327] (hero_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[2.849804] (hero_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[2.850200] (hero_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[2.851116] (hero_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[2.865468] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.880353] (vision_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/armor__functions.c.o\x1b[0m\n'}
+[2.893096] (vision_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/point__functions.c.o\x1b[0m\n'}
+[2.895629] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.895970] (hero_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.o\x1b[0m\n'}
+[2.898539] (vision_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/armors__functions.c.o\x1b[0m\n'}
+[2.903709] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.910205] (vision_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs/msg/detail/autoaim_state__functions.c.o\x1b[0m\n'}
+[2.914696] (-) TimerEvent: {}
+[2.917853] (vision_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_vision_msgs\n'}
+[2.918577] (vision_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[2.948272] (hero_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.o\x1b[0m\n'}
+[2.963982] (hero_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[2.985402] (vision_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/point__type_support.cpp.o\x1b[0m\n'}
+[2.990496] (vision_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o\x1b[0m\n'}
+[3.014847] (-) TimerEvent: {}
+[3.090506] (hero_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libhero_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.098026] (vision_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/armor__type_support.cpp.o\x1b[0m\n'}
+[3.114963] (-) TimerEvent: {}
+[3.126364] (vision_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/armor__type_support.cpp.o\x1b[0m\n'}
+[3.144492] (vision_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/armors__type_support.cpp.o\x1b[0m\n'}
+[3.214589] (hero_msgs) StdoutLine: {'line': b'[ 23%] Built target hero_msgs__rosidl_generator_c\n'}
+[3.215163] (-) TimerEvent: {}
+[3.317356] (-) TimerEvent: {}
+[3.418109] (-) TimerEvent: {}
+[3.440392] (vision_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libvision_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.518238] (-) TimerEvent: {}
+[3.619042] (-) TimerEvent: {}
+[3.719829] (-) TimerEvent: {}
+[3.820708] (-) TimerEvent: {}
+[3.837489] (vision_msgs) StdoutLine: {'line': b'[ 23%] Built target vision_msgs__rosidl_generator_c\n'}
+[3.912236] (hero_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/srv/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[3.920842] (-) TimerEvent: {}
+[3.932881] (vision_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/armors__type_support.cpp.o\x1b[0m\n'}
+[4.014747] (hero_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.016159] (hero_msgs) StdoutLine: {'line': b'writing hero_msgs.egg-info/PKG-INFO\n'}
+[4.016483] (hero_msgs) StdoutLine: {'line': b'writing dependency_links to hero_msgs.egg-info/dependency_links.txt\n'}
+[4.020976] (-) TimerEvent: {}
+[4.030765] (hero_msgs) StdoutLine: {'line': b'writing top-level names to hero_msgs.egg-info/top_level.txt\n'}
+[4.036553] (hero_msgs) StdoutLine: {'line': b"reading manifest file 'hero_msgs.egg-info/SOURCES.txt'\n"}
+[4.037523] (hero_msgs) StdoutLine: {'line': b"writing manifest file 'hero_msgs.egg-info/SOURCES.txt'\n"}
+[4.097181] (vision_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs/msg/autoaim_state__type_support.cpp.o\x1b[0m\n'}
+[4.121120] (-) TimerEvent: {}
+[4.141626] (hero_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[4.221279] (-) TimerEvent: {}
+[4.240451] (hero_msgs) StdoutLine: {'line': b'[ 26%] Built target ament_cmake_python_build_hero_msgs_egg\n'}
+[4.295597] (vision_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs/msg/detail/autoaim_state__type_support.cpp.o\x1b[0m\n'}
+[4.310640] (hero_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[4.320877] (hero_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[4.321349] (-) TimerEvent: {}
+[4.344403] (vision_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/armor__type_support.cpp.o\x1b[0m\n'}
+[4.362875] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.421508] (-) TimerEvent: {}
+[4.424775] (vision_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/armors__type_support.cpp.o\x1b[0m\n'}
+[4.465898] (hero_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/auto_aim__type_support_c.cpp.o\x1b[0m\n'}
+[4.507303] (vision_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.520433] (vision_msgs) StdoutLine: {'line': b'writing vision_msgs.egg-info/PKG-INFO\n'}
+[4.521057] (vision_msgs) StdoutLine: {'line': b'writing dependency_links to vision_msgs.egg-info/dependency_links.txt\n'}
+[4.521593] (-) TimerEvent: {}
+[4.522502] (vision_msgs) StdoutLine: {'line': b'writing top-level names to vision_msgs.egg-info/top_level.txt\n'}
+[4.537069] (vision_msgs) StdoutLine: {'line': b"reading manifest file 'vision_msgs.egg-info/SOURCES.txt'\n"}
+[4.538790] (vision_msgs) StdoutLine: {'line': b"writing manifest file 'vision_msgs.egg-info/SOURCES.txt'\n"}
+[4.621758] (-) TimerEvent: {}
+[4.722500] (-) TimerEvent: {}
+[4.816145] (vision_msgs) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_vision_msgs_egg\n'}
+[4.822678] (-) TimerEvent: {}
+[4.887891] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.922840] (-) TimerEvent: {}
+[4.951431] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.006064] (vision_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/point__type_support_c.cpp.o\x1b[0m\n'}
+[5.023020] (-) TimerEvent: {}
+[5.050395] (vision_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/point__type_support.c.o\x1b[0m\n'}
+[5.123181] (-) TimerEvent: {}
+[5.191002] (hero_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.o\x1b[0m\n'}
+[5.205988] (vision_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/armor__type_support.c.o\x1b[0m\n'}
+[5.223338] (-) TimerEvent: {}
+[5.235912] (vision_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/armors__type_support.c.o\x1b[0m\n'}
+[5.323553] (-) TimerEvent: {}
+[5.419998] (vision_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs/msg/detail/autoaim_state__type_support.c.o\x1b[0m\n'}
+[5.423693] (-) TimerEvent: {}
+[5.444064] (vision_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/armor__type_support_c.cpp.o\x1b[0m\n'}
+[5.488539] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.496005] (hero_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.o\x1b[0m\n'}
+[5.508372] (vision_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.523828] (-) TimerEvent: {}
+[5.550417] (hero_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c.o\x1b[0m\n'}
+[5.623976] (-) TimerEvent: {}
+[5.687399] (hero_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o\x1b[0m\n'}
+[5.692976] (vision_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libvision_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.708507] (vision_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs/msg/detail/dds_fastrtps/autoaim_state__type_support.cpp.o\x1b[0m\n'}
+[5.724125] (-) TimerEvent: {}
+[5.767211] (vision_msgs) StdoutLine: {'line': b'[ 50%] Built target vision_msgs__rosidl_typesupport_cpp\n'}
+[5.824273] (-) TimerEvent: {}
+[5.824913] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[5.842397] (hero_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o\x1b[0m\n'}
+[5.868205] (vision_msgs) StdoutLine: {'line': b'[ 52%] Built target vision_msgs__rosidl_typesupport_introspection_c\n'}
+[5.885390] (vision_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/armor__type_support.cpp.o\x1b[0m\n'}
+[5.924419] (-) TimerEvent: {}
+[5.927092] (hero_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o\x1b[0m\n'}
+[5.928858] (vision_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/point__type_support.cpp.o\x1b[0m\n'}
+[6.024569] (-) TimerEvent: {}
+[6.030799] (vision_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/armors__type_support.cpp.o\x1b[0m\n'}
+[6.064179] (hero_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o\x1b[0m\n'}
+[6.095030] (hero_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.o\x1b[0m\n'}
+[6.118764] (vision_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs/msg/autoaim_state__type_support.cpp.o\x1b[0m\n'}
+[6.124735] (-) TimerEvent: {}
+[6.199748] (vision_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/armors__type_support_c.cpp.o\x1b[0m\n'}
+[6.204661] (vision_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs/msg/detail/autoaim_state__type_support_c.cpp.o\x1b[0m\n'}
+[6.222112] (vision_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.224884] (-) TimerEvent: {}
+[6.235073] (hero_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[6.258373] (hero_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libhero_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.325033] (-) TimerEvent: {}
+[6.325670] (vision_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.328515] (hero_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[6.425184] (-) TimerEvent: {}
+[6.483353] (vision_msgs) StdoutLine: {'line': b'[ 69%] Built target vision_msgs__rosidl_typesupport_c\n'}
+[6.484861] (hero_msgs) StdoutLine: {'line': b'[ 50%] Built target hero_msgs__rosidl_typesupport_introspection_c\n'}
+[6.519927] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[6.525481] (-) TimerEvent: {}
+[6.526449] (hero_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.559056] (hero_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/auto_aim__type_support.cpp.o\x1b[0m\n'}
+[6.573308] (hero_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/vision_mode_switch__type_support_c.cpp.o\x1b[0m\n'}
+[6.625794] (-) TimerEvent: {}
+[6.712320] (hero_msgs) StdoutLine: {'line': b'[ 57%] Built target hero_msgs__rosidl_typesupport_cpp\n'}
+[6.725901] (-) TimerEvent: {}
+[6.726286] (hero_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o\x1b[0m\n'}
+[6.776249] (hero_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.cpp.o\x1b[0m\n'}
+[6.776559] (hero_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.o\x1b[0m\n'}
+[6.826050] (-) TimerEvent: {}
+[6.902361] (hero_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/srv/vision_mode_switch__type_support.cpp.o\x1b[0m\n'}
+[6.902789] (vision_msgs) StdoutLine: {'line': b'[ 70%] Built target vision_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.926191] (-) TimerEvent: {}
+[6.936565] (hero_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[6.970183] (hero_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.cpp.o\x1b[0m\n'}
+[7.026344] (-) TimerEvent: {}
+[7.086848] (hero_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.126479] (-) TimerEvent: {}
+[7.147436] (vision_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.191524] (hero_msgs) StdoutLine: {'line': b'[ 69%] Built target hero_msgs__rosidl_typesupport_c\n'}
+[7.226673] (-) TimerEvent: {}
+[7.325195] (vision_msgs) StdoutLine: {'line': b'[ 74%] Built target vision_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.326842] (-) TimerEvent: {}
+[7.410097] (hero_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.427540] (-) TimerEvent: {}
+[7.528651] (-) TimerEvent: {}
+[7.629766] (-) TimerEvent: {}
+[7.714704] (hero_msgs) StdoutLine: {'line': b'[ 73%] Built target hero_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.730014] (-) TimerEvent: {}
+[7.733522] (hero_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.739117] (vision_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libvision_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.773278] (hero_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.830393] (-) TimerEvent: {}
+[7.913385] (hero_msgs) StdoutLine: {'line': b'[ 77%] Built target hero_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.930577] (-) TimerEvent: {}
+[7.951873] (vision_msgs) StdoutLine: {'line': b'[ 78%] Built target vision_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.958846] (hero_msgs) StdoutLine: {'line': b'[ 79%] Built target hero_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.000340] (vision_msgs) StdoutLine: {'line': b'[ 78%] Built target vision_msgs\n'}
+[8.011922] (hero_msgs) StdoutLine: {'line': b'[ 79%] Built target hero_msgs\n'}
+[8.030824] (-) TimerEvent: {}
+[8.054194] (hero_msgs) StdoutLine: {'line': b'[ 80%] Built target hero_msgs__py\n'}
+[8.056931] (vision_msgs) StdoutLine: {'line': b'[ 80%] Built target vision_msgs__py\n'}
+[8.085510] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_generator_py\x1b[0m\n'}
+[8.086522] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_generator_py\x1b[0m\n'}
+[8.120628] (vision_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_armor_s.c.o\x1b[0m\n'}
+[8.126575] (vision_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_armors_s.c.o\x1b[0m\n'}
+[8.127379] (hero_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.o\x1b[0m\n'}
+[8.128003] (hero_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o\x1b[0m\n'}
+[8.128491] (hero_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o\x1b[0m\n'}
+[8.129067] (hero_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o\x1b[0m\n'}
+[8.129748] (vision_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_point_s.c.o\x1b[0m\n'}
+[8.131200] (-) TimerEvent: {}
+[8.134944] (hero_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c.o\x1b[0m\n'}
+[8.161986] (vision_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs/msg/_autoaim_state_s.c.o\x1b[0m\n'}
+[8.231320] (-) TimerEvent: {}
+[8.332279] (-) TimerEvent: {}
+[8.433323] (-) TimerEvent: {}
+[8.451004] (vision_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vision_msgs/libvision_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.465963] (hero_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.533608] (-) TimerEvent: {}
+[8.545499] (vision_msgs) StdoutLine: {'line': b'[ 89%] Built target vision_msgs__rosidl_generator_py\n'}
+[8.553225] (hero_msgs) StdoutLine: {'line': b'[ 90%] Built target hero_msgs__rosidl_generator_py\n'}
+[8.570217] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.573547] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.574065] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.574354] (vision_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.581274] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.582873] (hero_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hero_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.590089] (hero_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.597104] (vision_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.605711] (hero_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.614345] (vision_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.615029] (vision_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vision_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.615422] (hero_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.633746] (-) TimerEvent: {}
+[8.734376] (-) TimerEvent: {}
+[8.772089] (vision_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.796231] (hero_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.800848] (hero_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.834627] (-) TimerEvent: {}
+[8.836264] (vision_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.859233] (vision_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.885407] (hero_msgs) StdoutLine: {'line': b'[ 98%] Built target hero_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.894005] (vision_msgs) StdoutLine: {'line': b'[100%] Built target vision_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.896447] (hero_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[8.914734] (hero_msgs) StdoutLine: {'line': b'[100%] Built target hero_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.934203] (vision_msgs) StdoutLine: {'line': b'[100%] Built target vision_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.934721] (-) TimerEvent: {}
+[8.948083] (vision_msgs) StdoutLine: {'line': b'[100%] Built target vision_msgs__rosidl_typesupport_c__pyext\n'}
+[8.982955] (vision_msgs) CommandEnded: {'returncode': 0}
+[9.006532] (hero_msgs) StdoutLine: {'line': b'[100%] Built target hero_msgs__rosidl_typesupport_c__pyext\n'}
+[9.034948] (-) TimerEvent: {}
+[9.048920] (hero_msgs) CommandEnded: {'returncode': 0}
+[9.135182] (-) TimerEvent: {}
+[9.202489] (vision_msgs) JobProgress: {'identifier': 'vision_msgs', 'progress': 'install'}
+[9.235310] (vision_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.239066] (-) TimerEvent: {}
+[9.259235] (vision_msgs) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[9.260835] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/rosidl_interfaces/vision_msgs\n'}
+[9.262077] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs\n'}
+[9.263116] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg\n'}
+[9.263670] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail\n'}
+[9.264781] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__type_support.h\n'}
+[9.265168] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__functions.c\n'}
+[9.265638] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__functions.h\n'}
+[9.266085] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__functions.c\n'}
+[9.266795] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__struct.h\n'}
+[9.267233] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__struct.h\n'}
+[9.267829] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__functions.h\n'}
+[9.268191] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__functions.h\n'}
+[9.268584] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__struct.h\n'}
+[9.268735] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__type_support.h\n'}
+[9.268875] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__struct.h\n'}
+[9.269012] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__functions.c\n'}
+[9.269148] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__functions.c\n'}
+[9.269280] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__functions.h\n'}
+[9.269412] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__type_support.h\n'}
+[9.271203] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__type_support.h\n'}
+[9.271346] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armors.h\n'}
+[9.271475] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/autoaim_state.h\n'}
+[9.271599] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/point.h\n'}
+[9.271721] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armor.h\n'}
+[9.271843] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.271990] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/library_path.sh\n'}
+[9.272114] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/library_path.dsv\n'}
+[9.272349] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_c.so\n'}
+[9.272475] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_c.so" to ""\n'}
+[9.272601] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs\n'}
+[9.272724] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg\n'}
+[9.272845] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail\n'}
+[9.272966] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_fastrtps_c.h\n'}
+[9.273091] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_fastrtps_c.h\n'}
+[9.273214] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_fastrtps_c.h\n'}
+[9.273337] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[9.273459] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.273719] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.273850] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.273975] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs\n'}
+[9.274098] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg\n'}
+[9.274243] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail\n'}
+[9.274366] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_introspection_c.h\n'}
+[9.274509] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__type_support.c\n'}
+[9.274635] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__type_support.c\n'}
+[9.274756] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__type_support.c\n'}
+[9.274878] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[9.275090] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__type_support.c\n'}
+[9.275215] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_introspection_c.h\n'}
+[9.275340] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_introspection_c.h\n'}
+[9.275461] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.275583] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.275708] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.275847] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_c.so\n'}
+[9.275972] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.276317] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs\n'}
+[9.276450] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg\n'}
+[9.276574] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail\n'}
+[9.276697] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__traits.hpp\n'}
+[9.276847] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__traits.hpp\n'}
+[9.276982] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__builder.hpp\n'}
+[9.277107] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__builder.hpp\n'}
+[9.277229] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__traits.hpp\n'}
+[9.277370] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__struct.hpp\n'}
+[9.277493] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__struct.hpp\n'}
+[9.277724] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__builder.hpp\n'}
+[9.277851] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__builder.hpp\n'}
+[9.277974] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__traits.hpp\n'}
+[9.278098] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__struct.hpp\n'}
+[9.278221] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__struct.hpp\n'}
+[9.278343] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/autoaim_state.hpp\n'}
+[9.278466] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armor.hpp\n'}
+[9.278589] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armors.hpp\n'}
+[9.278737] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/point.hpp\n'}
+[9.278873] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs\n'}
+[9.279009] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg\n'}
+[9.279370] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail\n'}
+[9.279501] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.279627] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/dds_fastrtps\n'}
+[9.279749] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.279871] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.279996] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.280138] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.280289] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.280422] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.280790] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs\n'}
+[9.280919] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg\n'}
+[9.281061] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail\n'}
+[9.281191] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__type_support.cpp\n'}
+[9.281312] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.281433] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.281556] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.281682] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.281821] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__type_support.cpp\n'}
+[9.281950] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__type_support.cpp\n'}
+[9.282073] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__type_support.cpp\n'}
+[9.282204] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.282337] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.282467] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_cpp.so\n'}
+[9.282741] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.282878] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.sh\n'}
+[9.282981] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.dsv\n'}
+[9.283068] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info\n'}
+[9.283233] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.283326] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.283412] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.283530] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.283637] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs\n'}
+[9.283724] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg\n'}
+[9.283809] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/__init__.py\n'}
+[9.283902] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armor_s.c\n'}
+[9.283990] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_point.py\n'}
+[9.284074] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armors.py\n'}
+[9.284159] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_point_s.c\n'}
+[9.284243] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armor.py\n'}
+[9.284327] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_autoaim_state.py\n'}
+[9.284485] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_autoaim_state_s.c\n'}
+[9.284577] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armors_s.c\n'}
+[9.284662] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.284750] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/__init__.py\n'}
+[9.284837] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.284927] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/libvision_msgs__rosidl_generator_py.so\n'}
+[9.285014] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.285102] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.285189] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.285276] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.289746] (hero_msgs) JobProgress: {'identifier': 'hero_msgs', 'progress': 'install'}
+[9.291121] (hero_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.319773] (vision_msgs) StdoutLine: {'line': b"Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs'...\n"}
+[9.320682] (vision_msgs) StdoutLine: {'line': b"Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/__init__.py'...\n"}
+[9.321178] (vision_msgs) StdoutLine: {'line': b"Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg'...\n"}
+[9.331254] (hero_msgs) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[9.331959] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/rosidl_interfaces/hero_msgs\n'}
+[9.332411] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs\n'}
+[9.332542] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg\n'}
+[9.332645] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail\n'}
+[9.332744] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__functions.h\n'}
+[9.332839] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__struct.h\n'}
+[9.332934] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__functions.c\n'}
+[9.333027] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__type_support.h\n'}
+[9.333123] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.h\n'}
+[9.333216] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__struct.h\n'}
+[9.333309] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.c\n'}
+[9.333401] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.h\n'}
+[9.333583] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__functions.c\n'}
+[9.333897] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.h\n'}
+[9.334018] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__type_support.h\n'}
+[9.334117] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__functions.h\n'}
+[9.334211] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/dual_loop_pid_with_filter.h\n'}
+[9.334305] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/auto_aim.h\n'}
+[9.334398] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/motion.h\n'}
+[9.334507] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.334603] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv\n'}
+[9.334696] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail\n'}
+[9.334965] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__struct.h\n'}
+[9.335063] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__type_support.h\n'}
+[9.335158] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__functions.h\n'}
+[9.335253] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__functions.c\n'}
+[9.335362] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__struct.h\n'}
+[9.335458] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__type_support.h\n'}
+[9.335551] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__functions.c\n'}
+[9.335644] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__functions.h\n'}
+[9.336584] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/reset_motor_position.h\n'}
+[9.337360] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/vision_mode_switch.h\n'}
+[9.337460] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.337736] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/library_path.sh\n'}
+[9.337814] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.337987] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/library_path.dsv\n'}
+[9.338065] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_c.so\n'}
+[9.338137] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_c.so" to ""\n'}
+[9.338208] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs\n'}
+[9.338278] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg\n'}
+[9.338347] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.338440] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.338802] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.339039] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.339244] (-) TimerEvent: {}
+[9.339576] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail\n'}
+[9.339745] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_fastrtps_c.h\n'}
+[9.339824] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_c.h\n'}
+[9.339934] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_fastrtps_c.h\n'}
+[9.340018] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.340336] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv\n'}
+[9.340482] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail\n'}
+[9.340552] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_fastrtps_c.h\n'}
+[9.340618] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_fastrtps_c.h\n'}
+[9.340704] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.340782] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_py.so\n'}
+[9.340852] (vision_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_py.so" to ""\n'}
+[9.340917] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Point.idl\n'}
+[9.340981] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armor.idl\n'}
+[9.341046] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armors.idl\n'}
+[9.341109] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/AutoaimState.idl\n'}
+[9.341184] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Point.msg\n'}
+[9.341251] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armor.msg\n'}
+[9.341315] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armors.msg\n'}
+[9.341379] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/AutoaimState.msg\n'}
+[9.341464] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/package_run_dependencies/vision_msgs\n'}
+[9.341531] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/parent_prefix_path/vision_msgs\n'}
+[9.341636] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.sh\n'}
+[9.341704] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.dsv\n'}
+[9.341769] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.341835] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs\n'}
+[9.341900] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg\n'}
+[9.341963] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail\n'}
+[9.342112] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/path.sh\n'}
+[9.342208] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/path.dsv\n'}
+[9.342273] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__traits.hpp\n'}
+[9.342357] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__builder.hpp\n'}
+[9.342444] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__builder.hpp\n'}
+[9.342528] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__traits.hpp\n'}
+[9.342593] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__traits.hpp\n'}
+[9.342676] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__struct.hpp\n'}
+[9.342758] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__builder.hpp\n'}
+[9.342821] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.hpp\n'}
+[9.342913] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__struct.hpp\n'}
+[9.343171] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/auto_aim.hpp\n'}
+[9.346088] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/dual_loop_pid_with_filter.hpp\n'}
+[9.347539] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/motion.hpp\n'}
+[9.348324] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv\n'}
+[9.349410] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.bash\n'}
+[9.350022] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.sh\n'}
+[9.351186] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.zsh\n'}
+[9.351899] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.dsv\n'}
+[9.352413] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.dsv\n'}
+[9.352882] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/packages/vision_msgs\n'}
+[9.353532] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/vision_mode_switch.hpp\n'}
+[9.354160] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail\n'}
+[9.354559] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__traits.hpp\n'}
+[9.355096] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__struct.hpp\n'}
+[9.356066] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__traits.hpp\n'}
+[9.356880] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__builder.hpp\n'}
+[9.357392] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__struct.hpp\n'}
+[9.357880] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__builder.hpp\n'}
+[9.358499] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/reset_motor_position.hpp\n'}
+[9.359071] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs\n'}
+[9.359448] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg\n'}
+[9.360029] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail\n'}
+[9.361043] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.361586] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dds_fastrtps\n'}
+[9.362176] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.362555] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.363140] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.363980] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv\n'}
+[9.364596] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail\n'}
+[9.368092] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/dds_fastrtps\n'}
+[9.368881] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.369272] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.369804] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.370353] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cExport.cmake\n'}
+[9.370898] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cExport-debug.cmake\n'}
+[9.371508] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.372065] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cExport-debug.cmake\n'}
+[9.372465] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.372969] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport-debug.cmake\n'}
+[9.373521] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.374062] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.374609] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs\n'}
+[9.375143] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg\n'}
+[9.375676] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail\n'}
+[9.376170] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_c.h\n'}
+[9.376738] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport-debug.cmake\n'}
+[9.377982] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.378531] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.379028] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cppExport-debug.cmake\n'}
+[9.379555] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.380045] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport-debug.cmake\n'}
+[9.380569] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__type_support.c\n'}
+[9.381146] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_introspection_c.h\n'}
+[9.381607] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__type_support.c\n'}
+[9.382026] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h\n'}
+[9.382489] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c\n'}
+[9.382910] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.383363] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv\n'}
+[9.383825] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.384243] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport-debug.cmake\n'}
+[9.384648] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.385090] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail\n'}
+[9.385562] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_c.h\n'}
+[9.386122] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__type_support.c\n'}
+[9.386585] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_c.h\n'}
+[9.387029] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__type_support.c\n'}
+[9.387461] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.387906] (vision_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_pyExport-debug.cmake\n'}
+[9.388316] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.388792] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.389240] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.389630] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.390075] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.390523] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_c.so\n'}
+[9.390978] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.391389] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.391820] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.392260] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs\n'}
+[9.392636] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.393052] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig.cmake\n'}
+[9.393471] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig-version.cmake\n'}
+[9.396425] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg\n'}
+[9.397738] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail\n'}
+[9.398351] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__type_support.cpp\n'}
+[9.399771] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.400369] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.401133] (vision_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.xml\n'}
+[9.402668] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__type_support.cpp\n'}
+[9.403995] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.404952] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp\n'}
+[9.406348] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv\n'}
+[9.407265] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail\n'}
+[9.408036] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.408825] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.409485] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__type_support.cpp\n'}
+[9.410273] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__type_support.cpp\n'}
+[9.410711] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.411885] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.416482] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_cpp.so\n'}
+[9.418253] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.419215] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/pythonpath.sh\n'}
+[9.420567] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/pythonpath.dsv\n'}
+[9.420973] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info\n'}
+[9.426289] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[9.427246] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[9.428749] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[9.429568] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[9.430098] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs\n'}
+[9.431831] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg\n'}
+[9.433245] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_motion.py\n'}
+[9.433800] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_auto_aim.py\n'}
+[9.434291] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/__init__.py\n'}
+[9.434771] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_motion_s.c\n'}
+[9.435406] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_dual_loop_pid_with_filter_s.c\n'}
+[9.435735] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_auto_aim_s.c\n'}
+[9.436063] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_dual_loop_pid_with_filter.py\n'}
+[9.436389] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.436742] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/__init__.py\n'}
+[9.437101] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.437432] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.437764] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.438100] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.438427] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv\n'}
+[9.439217] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_vision_mode_switch.py\n'}
+[9.440473] (-) TimerEvent: {}
+[9.442118] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/__init__.py\n'}
+[9.442851] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_vision_mode_switch_s.c\n'}
+[9.443403] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_reset_motor_position_s.c\n'}
+[9.443867] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_reset_motor_position.py\n'}
+[9.444622] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/libhero_msgs__rosidl_generator_py.so\n'}
+[9.445086] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.445493] (vision_msgs) CommandEnded: {'returncode': 0}
+[9.446716] (hero_msgs) StdoutLine: {'line': b"Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs'...\n"}
+[9.447131] (hero_msgs) StdoutLine: {'line': b"Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/__init__.py'...\n"}
+[9.447495] (hero_msgs) StdoutLine: {'line': b"Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg'...\n"}
+[9.447843] (hero_msgs) StdoutLine: {'line': b"Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv'...\n"}
+[9.448234] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.448617] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.448978] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.449378] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.449768] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[9.450157] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[9.450498] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_py.so\n'}
+[9.450876] (hero_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_py.so" to ""\n'}
+[9.451232] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/AutoAIM.idl\n'}
+[9.451586] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/DualLoopPIDWithFilter.idl\n'}
+[9.451933] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/Motion.idl\n'}
+[9.452279] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch.idl\n'}
+[9.452634] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition.idl\n'}
+[9.453030] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/AutoAIM.msg\n'}
+[9.453420] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/DualLoopPIDWithFilter.msg\n'}
+[9.453970] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/Motion.msg\n'}
+[9.455757] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch.srv\n'}
+[9.456231] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch_Request.msg\n'}
+[9.457145] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch_Response.msg\n'}
+[9.457619] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition.srv\n'}
+[9.458105] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition_Request.msg\n'}
+[9.459042] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition_Response.msg\n'}
+[9.460287] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/package_run_dependencies/hero_msgs\n'}
+[9.460881] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/parent_prefix_path/hero_msgs\n'}
+[9.461937] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/ament_prefix_path.sh\n'}
+[9.462756] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/ament_prefix_path.dsv\n'}
+[9.463157] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/path.sh\n'}
+[9.465153] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/path.dsv\n'}
+[9.466246] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.bash\n'}
+[9.466705] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.sh\n'}
+[9.467134] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.zsh\n'}
+[9.467733] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.dsv\n'}
+[9.468601] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.dsv\n'}
+[9.469078] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/packages/hero_msgs\n'}
+[9.469737] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cExport.cmake\n'}
+[9.470654] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cExport-debug.cmake\n'}
+[9.471260] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.474171] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cExport-debug.cmake\n'}
+[9.475632] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.476122] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.476889] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cppExport-debug.cmake\n'}
+[9.478014] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.478430] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cExport-debug.cmake\n'}
+[9.479173] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.480191] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cExport-debug.cmake\n'}
+[9.480872] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.482011] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cppExport-debug.cmake\n'}
+[9.482675] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.483870] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cppExport-debug.cmake\n'}
+[9.484868] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.485515] (hero_msgs) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_pyExport-debug.cmake\n'}
+[9.486009] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.486369] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.486835] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.487799] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.488914] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.489332] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.490554] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.490991] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgsConfig.cmake\n'}
+[9.491318] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgsConfig-version.cmake\n'}
+[9.491645] (hero_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.xml\n'}
+[9.492075] (hero_msgs) CommandEnded: {'returncode': 0}
+[9.540735] (-) TimerEvent: {}
+[9.642082] (-) TimerEvent: {}
+[9.658886] (vision_msgs) JobEnded: {'identifier': 'vision_msgs', 'rc': 0}
+[9.742373] (-) TimerEvent: {}
+[9.812724] (hero_msgs) JobEnded: {'identifier': 'hero_msgs', 'rc': 0}
+[9.816976] (contact) JobStarted: {'identifier': 'contact'}
+[9.833086] (contact) JobProgress: {'identifier': 'contact', 'progress': 'cmake'}
+[9.835292] (contact) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/GM/RESOURCES/ros2_ws/src/contact', '-DCMAKE_BUILD_TYPE=Debug', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/contact'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble')]), 'shell': False}
+[9.842487] (-) TimerEvent: {}
+[9.875158] (contact) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.942552] (-) TimerEvent: {}
+[10.043134] (-) TimerEvent: {}
+[10.126727] (contact) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.143322] (-) TimerEvent: {}
+[10.161946] (contact) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.164920] (contact) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.172059] (contact) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.184288] (contact) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.200966] (contact) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.242873] (contact) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.243843] (-) TimerEvent: {}
+[10.244565] (contact) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.344237] (-) TimerEvent: {}
+[10.400070] (contact) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.444568] (-) TimerEvent: {}
+[10.469666] (contact) StdoutLine: {'line': b'-- Found hero_msgs: 0.0.1 (/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake)\n'}
+[10.489287] (contact) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.544818] (-) TimerEvent: {}
+[10.646060] (-) TimerEvent: {}
+[10.656005] (contact) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.698642] (contact) StdoutLine: {'line': b'-- Generating done\n'}
+[10.715863] (contact) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/GM/RESOURCES/ros2_ws/build/contact\n'}
+[10.746287] (-) TimerEvent: {}
+[10.752484] (contact) CommandEnded: {'returncode': 0}
+[10.756676] (contact) JobProgress: {'identifier': 'contact', 'progress': 'build'}
+[10.756896] (contact) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble')]), 'shell': False}
+[10.846662] (-) TimerEvent: {}
+[10.882288] (contact) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[10.911696] (contact) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object serial/lib/CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[10.920271] (contact) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object serial/lib/CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[10.921642] (contact) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object serial/lib/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[10.946990] (-) TimerEvent: {}
+[11.048227] (-) TimerEvent: {}
+[11.149730] (-) TimerEvent: {}
+[11.251319] (-) TimerEvent: {}
+[11.352707] (-) TimerEvent: {}
+[11.453678] (-) TimerEvent: {}
+[11.469582] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.470418] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:66:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.470966] (contact) StderrLine: {'line': b'   66 |     for(int path_index = 0; \x1b[01;35m\x1b[Kpath_index < glob_results.gl_pathc\x1b[m\x1b[K; path_index++)\n'}
+[11.471413] (contact) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.471817] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:57:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kglob_retval\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.472206] (contact) StderrLine: {'line': b'   57 |     int \x1b[01;35m\x1b[Kglob_retval\x1b[m\x1b[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);\n'}
+[11.472566] (contact) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.476854] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string format(const char*, ...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.477635] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:246:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.478169] (contact) StderrLine: {'line': b'  246 |         else if( \x1b[01;35m\x1b[Kreturn_value >= buffer_size_bytes\x1b[m\x1b[K )\n'}
+[11.478627] (contact) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.553947] (-) TimerEvent: {}
+[11.655120] (-) TimerEvent: {}
+[11.756693] (-) TimerEvent: {}
+[11.858203] (-) TimerEvent: {}
+[11.956702] (contact) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[11.958278] (-) TimerEvent: {}
+[12.059516] (-) TimerEvent: {}
+[12.160969] (-) TimerEvent: {}
+[12.166438] (contact) StdoutLine: {'line': b'[ 50%] Built target serial\n'}
+[12.202128] (contact) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target contact\x1b[0m\n'}
+[12.261372] (-) TimerEvent: {}
+[12.262838] (contact) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/contact.dir/src/CommPort.cpp.o\x1b[0m\n'}
+[12.263875] (contact) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/contact.dir/src/ContactNode.cpp.o\x1b[0m\n'}
+[12.264941] (contact) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/contact.dir/src/Checksum.cpp.o\x1b[0m\n'}
+[12.361723] (-) TimerEvent: {}
+[12.463118] (-) TimerEvent: {}
+[12.564649] (-) TimerEvent: {}
+[12.666119] (-) TimerEvent: {}
+[12.767667] (-) TimerEvent: {}
+[12.869199] (-) TimerEvent: {}
+[12.970821] (-) TimerEvent: {}
+[13.072415] (-) TimerEvent: {}
+[13.174010] (-) TimerEvent: {}
+[13.275529] (-) TimerEvent: {}
+[13.377078] (-) TimerEvent: {}
+[13.478608] (-) TimerEvent: {}
+[13.580119] (-) TimerEvent: {}
+[13.681636] (-) TimerEvent: {}
+[13.783169] (-) TimerEvent: {}
+[13.884720] (-) TimerEvent: {}
+[13.986233] (-) TimerEvent: {}
+[14.087784] (-) TimerEvent: {}
+[14.189297] (-) TimerEvent: {}
+[14.290849] (-) TimerEvent: {}
+[14.392358] (-) TimerEvent: {}
+[14.493829] (-) TimerEvent: {}
+[14.595379] (-) TimerEvent: {}
+[14.696937] (-) TimerEvent: {}
+[14.798456] (-) TimerEvent: {}
+[14.899975] (-) TimerEvent: {}
+[15.001474] (-) TimerEvent: {}
+[15.102998] (-) TimerEvent: {}
+[15.204594] (-) TimerEvent: {}
+[15.306176] (-) TimerEvent: {}
+[15.407749] (-) TimerEvent: {}
+[15.509264] (-) TimerEvent: {}
+[15.610802] (-) TimerEvent: {}
+[15.712347] (-) TimerEvent: {}
+[15.813890] (-) TimerEvent: {}
+[15.915429] (-) TimerEvent: {}
+[16.016935] (-) TimerEvent: {}
+[16.118458] (-) TimerEvent: {}
+[16.219975] (-) TimerEvent: {}
+[16.321535] (-) TimerEvent: {}
+[16.423104] (-) TimerEvent: {}
+[16.524611] (-) TimerEvent: {}
+[16.626102] (-) TimerEvent: {}
+[16.727544] (-) TimerEvent: {}
+[16.828925] (-) TimerEvent: {}
+[16.930427] (-) TimerEvent: {}
+[17.031824] (-) TimerEvent: {}
+[17.133255] (-) TimerEvent: {}
+[17.234567] (-) TimerEvent: {}
+[17.335973] (-) TimerEvent: {}
+[17.437442] (-) TimerEvent: {}
+[17.476398] (contact) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:1\x1b[m\x1b[K:\n'}
+[17.477626] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:37:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktypedef\x1b[m\x1b[K\xe2\x80\x99 was ignored in this declaration\n'}
+[17.478108] (contact) StderrLine: {'line': b'   37 |   \x1b[01;35m\x1b[Ktypedef\x1b[m\x1b[K struct ProjectileRx {\n'}
+[17.478477] (contact) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.478798] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:54:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktypedef\x1b[m\x1b[K\xe2\x80\x99 was ignored in this declaration\n'}
+[17.479123] (contact) StderrLine: {'line': b'   54 |   \x1b[01;35m\x1b[Ktypedef\x1b[m\x1b[K struct MotionRx {\n'}
+[17.479473] (contact) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.486603] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCommPort::CommPort()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.487548] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:4:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.487985] (contact) StderrLine: {'line': b'    4 |   char *device = \x1b[01;35m\x1b[K"/dev/ttyACM0"\x1b[m\x1b[K;\n'}
+[17.488316] (contact) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.501292] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kfloat* CommPort::getQuaternion()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.502471] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:211:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[KCommPort::ProjectileRx\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member\x07-Waddress-of-packed-member\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.503155] (contact) StderrLine: {'line': b'  211 |   return \x1b[01;35m\x1b[Krx_struct_.q\x1b[m\x1b[K;\n'}
+[17.503547] (contact) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[17.503883] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t* CommPort::get_enemy_hp()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.504264] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:234:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[KCommPort::ProjectileRx\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member\x07-Waddress-of-packed-member\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.504630] (contact) StderrLine: {'line': b'  234 | uint16_t *CommPort::get_enemy_hp() { return \x1b[01;35m\x1b[Kthis->rx_struct_.enemy_hp\x1b[m\x1b[K; }\n'}
+[17.504949] (contact) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[17.505266] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CommPort::update_send_motion(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.505589] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:268:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Ktx_buffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.505934] (contact) StderrLine: {'line': b'  268 |   uint8_t \x1b[01;35m\x1b[Ktx_buffer\x1b[m\x1b[K[MotionRxSize];\n'}
+[17.506256] (contact) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[17.537744] (-) TimerEvent: {}
+[17.639172] (-) TimerEvent: {}
+[17.731220] (contact) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:3\x1b[m\x1b[K:\n'}
+[17.732180] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:37:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktypedef\x1b[m\x1b[K\xe2\x80\x99 was ignored in this declaration\n'}
+[17.732587] (contact) StderrLine: {'line': b'   37 |   \x1b[01;35m\x1b[Ktypedef\x1b[m\x1b[K struct ProjectileRx {\n'}
+[17.732915] (contact) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.733235] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:54:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktypedef\x1b[m\x1b[K\xe2\x80\x99 was ignored in this declaration\n'}
+[17.733602] (contact) StderrLine: {'line': b'   54 |   \x1b[01;35m\x1b[Ktypedef\x1b[m\x1b[K struct MotionRx {\n'}
+[17.733932] (contact) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.739556] (-) TimerEvent: {}
+[17.841020] (-) TimerEvent: {}
+[17.942413] (-) TimerEvent: {}
+[18.043783] (-) TimerEvent: {}
+[18.145137] (-) TimerEvent: {}
+[18.246460] (-) TimerEvent: {}
+[18.347857] (-) TimerEvent: {}
+[18.449254] (-) TimerEvent: {}
+[18.550612] (-) TimerEvent: {}
+[18.652040] (-) TimerEvent: {}
+[18.753333] (-) TimerEvent: {}
+[18.854764] (-) TimerEvent: {}
+[18.956167] (-) TimerEvent: {}
+[19.057562] (-) TimerEvent: {}
+[19.158996] (-) TimerEvent: {}
+[19.260422] (-) TimerEvent: {}
+[19.361843] (-) TimerEvent: {}
+[19.463262] (-) TimerEvent: {}
+[19.564589] (-) TimerEvent: {}
+[19.666004] (-) TimerEvent: {}
+[19.767513] (-) TimerEvent: {}
+[19.868917] (-) TimerEvent: {}
+[19.970408] (-) TimerEvent: {}
+[20.071823] (-) TimerEvent: {}
+[20.173263] (-) TimerEvent: {}
+[20.274679] (-) TimerEvent: {}
+[20.376123] (-) TimerEvent: {}
+[20.477704] (-) TimerEvent: {}
+[20.579162] (-) TimerEvent: {}
+[20.680618] (-) TimerEvent: {}
+[20.782099] (-) TimerEvent: {}
+[20.883545] (-) TimerEvent: {}
+[20.984935] (-) TimerEvent: {}
+[21.086316] (-) TimerEvent: {}
+[21.187820] (-) TimerEvent: {}
+[21.289237] (-) TimerEvent: {}
+[21.390656] (-) TimerEvent: {}
+[21.492057] (-) TimerEvent: {}
+[21.593511] (-) TimerEvent: {}
+[21.694912] (-) TimerEvent: {}
+[21.796301] (-) TimerEvent: {}
+[21.897746] (-) TimerEvent: {}
+[21.999330] (-) TimerEvent: {}
+[22.100904] (-) TimerEvent: {}
+[22.202258] (-) TimerEvent: {}
+[22.303654] (-) TimerEvent: {}
+[22.405078] (-) TimerEvent: {}
+[22.506477] (-) TimerEvent: {}
+[22.607899] (-) TimerEvent: {}
+[22.709210] (-) TimerEvent: {}
+[22.810606] (-) TimerEvent: {}
+[22.911959] (-) TimerEvent: {}
+[23.013314] (-) TimerEvent: {}
+[23.114691] (-) TimerEvent: {}
+[23.216040] (-) TimerEvent: {}
+[23.317443] (-) TimerEvent: {}
+[23.418811] (-) TimerEvent: {}
+[23.520142] (-) TimerEvent: {}
+[23.621553] (-) TimerEvent: {}
+[23.722933] (-) TimerEvent: {}
+[23.824389] (-) TimerEvent: {}
+[23.925717] (-) TimerEvent: {}
+[24.027066] (-) TimerEvent: {}
+[24.128401] (-) TimerEvent: {}
+[24.229776] (-) TimerEvent: {}
+[24.331215] (-) TimerEvent: {}
+[24.432614] (-) TimerEvent: {}
+[24.533914] (-) TimerEvent: {}
+[24.635329] (-) TimerEvent: {}
+[24.736717] (-) TimerEvent: {}
+[24.838177] (-) TimerEvent: {}
+[24.939484] (-) TimerEvent: {}
+[25.040894] (-) TimerEvent: {}
+[25.142256] (-) TimerEvent: {}
+[25.243619] (-) TimerEvent: {}
+[25.344872] (-) TimerEvent: {}
+[25.446172] (-) TimerEvent: {}
+[25.547525] (-) TimerEvent: {}
+[25.648932] (-) TimerEvent: {}
+[25.750348] (-) TimerEvent: {}
+[25.851765] (-) TimerEvent: {}
+[25.953136] (-) TimerEvent: {}
+[26.054556] (-) TimerEvent: {}
+[26.155961] (-) TimerEvent: {}
+[26.257322] (-) TimerEvent: {}
+[26.358628] (-) TimerEvent: {}
+[26.459994] (-) TimerEvent: {}
+[26.561376] (-) TimerEvent: {}
+[26.662715] (-) TimerEvent: {}
+[26.764003] (-) TimerEvent: {}
+[26.865353] (-) TimerEvent: {}
+[26.966695] (-) TimerEvent: {}
+[27.068115] (-) TimerEvent: {}
+[27.169370] (-) TimerEvent: {}
+[27.270687] (-) TimerEvent: {}
+[27.371923] (-) TimerEvent: {}
+[27.473241] (-) TimerEvent: {}
+[27.574597] (-) TimerEvent: {}
+[27.675939] (-) TimerEvent: {}
+[27.777231] (-) TimerEvent: {}
+[27.878571] (-) TimerEvent: {}
+[27.980006] (-) TimerEvent: {}
+[28.081680] (-) TimerEvent: {}
+[28.183090] (-) TimerEvent: {}
+[28.284558] (-) TimerEvent: {}
+[28.385946] (-) TimerEvent: {}
+[28.487427] (-) TimerEvent: {}
+[28.588855] (-) TimerEvent: {}
+[28.690258] (-) TimerEvent: {}
+[28.791553] (-) TimerEvent: {}
+[28.892890] (-) TimerEvent: {}
+[28.994258] (-) TimerEvent: {}
+[29.095656] (-) TimerEvent: {}
+[29.197196] (-) TimerEvent: {}
+[29.298708] (-) TimerEvent: {}
+[29.400238] (-) TimerEvent: {}
+[29.501536] (-) TimerEvent: {}
+[29.602414] (-) TimerEvent: {}
+[29.703444] (-) TimerEvent: {}
+[29.804694] (-) TimerEvent: {}
+[29.906039] (-) TimerEvent: {}
+[30.007416] (-) TimerEvent: {}
+[30.108912] (-) TimerEvent: {}
+[30.210353] (-) TimerEvent: {}
+[30.311900] (-) TimerEvent: {}
+[30.413327] (-) TimerEvent: {}
+[30.515084] (-) TimerEvent: {}
+[30.616460] (-) TimerEvent: {}
+[30.717887] (-) TimerEvent: {}
+[30.819185] (-) TimerEvent: {}
+[30.920538] (-) TimerEvent: {}
+[31.021886] (-) TimerEvent: {}
+[31.123334] (-) TimerEvent: {}
+[31.224776] (-) TimerEvent: {}
+[31.326186] (-) TimerEvent: {}
+[31.427622] (-) TimerEvent: {}
+[31.528962] (-) TimerEvent: {}
+[31.630347] (-) TimerEvent: {}
+[31.731729] (-) TimerEvent: {}
+[31.833066] (-) TimerEvent: {}
+[31.934491] (-) TimerEvent: {}
+[32.035864] (-) TimerEvent: {}
+[32.137262] (-) TimerEvent: {}
+[32.238549] (-) TimerEvent: {}
+[32.340063] (-) TimerEvent: {}
+[32.441445] (-) TimerEvent: {}
+[32.542784] (-) TimerEvent: {}
+[32.644194] (-) TimerEvent: {}
+[32.745589] (-) TimerEvent: {}
+[32.847007] (-) TimerEvent: {}
+[32.948413] (-) TimerEvent: {}
+[33.049803] (-) TimerEvent: {}
+[33.151267] (-) TimerEvent: {}
+[33.252616] (-) TimerEvent: {}
+[33.353994] (-) TimerEvent: {}
+[33.455381] (-) TimerEvent: {}
+[33.556784] (-) TimerEvent: {}
+[33.658166] (-) TimerEvent: {}
+[33.759479] (-) TimerEvent: {}
+[33.860841] (-) TimerEvent: {}
+[33.962232] (-) TimerEvent: {}
+[34.063606] (-) TimerEvent: {}
+[34.165034] (-) TimerEvent: {}
+[34.266345] (-) TimerEvent: {}
+[34.367773] (-) TimerEvent: {}
+[34.469124] (-) TimerEvent: {}
+[34.570493] (-) TimerEvent: {}
+[34.671855] (-) TimerEvent: {}
+[34.773251] (-) TimerEvent: {}
+[34.874554] (-) TimerEvent: {}
+[34.975910] (-) TimerEvent: {}
+[35.077261] (-) TimerEvent: {}
+[35.178630] (-) TimerEvent: {}
+[35.279987] (-) TimerEvent: {}
+[35.381405] (-) TimerEvent: {}
+[35.482758] (-) TimerEvent: {}
+[35.584148] (-) TimerEvent: {}
+[35.685519] (-) TimerEvent: {}
+[35.786952] (-) TimerEvent: {}
+[35.888288] (-) TimerEvent: {}
+[35.989536] (-) TimerEvent: {}
+[36.090930] (-) TimerEvent: {}
+[36.192288] (-) TimerEvent: {}
+[36.293651] (-) TimerEvent: {}
+[36.395025] (-) TimerEvent: {}
+[36.496364] (-) TimerEvent: {}
+[36.597738] (-) TimerEvent: {}
+[36.699130] (-) TimerEvent: {}
+[36.800410] (-) TimerEvent: {}
+[36.901461] (-) TimerEvent: {}
+[37.002982] (-) TimerEvent: {}
+[37.104320] (-) TimerEvent: {}
+[37.205698] (-) TimerEvent: {}
+[37.307072] (-) TimerEvent: {}
+[37.408441] (-) TimerEvent: {}
+[37.509743] (-) TimerEvent: {}
+[37.611122] (-) TimerEvent: {}
+[37.712458] (-) TimerEvent: {}
+[37.813814] (-) TimerEvent: {}
+[37.915113] (-) TimerEvent: {}
+[38.016411] (-) TimerEvent: {}
+[38.117761] (-) TimerEvent: {}
+[38.219079] (-) TimerEvent: {}
+[38.320431] (-) TimerEvent: {}
+[38.421774] (-) TimerEvent: {}
+[38.523092] (-) TimerEvent: {}
+[38.624563] (-) TimerEvent: {}
+[38.725824] (-) TimerEvent: {}
+[38.827108] (-) TimerEvent: {}
+[38.928334] (-) TimerEvent: {}
+[39.029542] (-) TimerEvent: {}
+[39.130810] (-) TimerEvent: {}
+[39.232139] (-) TimerEvent: {}
+[39.333531] (-) TimerEvent: {}
+[39.434452] (-) TimerEvent: {}
+[39.535535] (-) TimerEvent: {}
+[39.636976] (-) TimerEvent: {}
+[39.738495] (-) TimerEvent: {}
+[39.839954] (-) TimerEvent: {}
+[39.941507] (-) TimerEvent: {}
+[40.042975] (-) TimerEvent: {}
+[40.144570] (-) TimerEvent: {}
+[40.208766] (contact) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable contact\x1b[0m\n'}
+[40.244932] (-) TimerEvent: {}
+[40.346338] (-) TimerEvent: {}
+[40.448117] (-) TimerEvent: {}
+[40.549925] (-) TimerEvent: {}
+[40.651053] (-) TimerEvent: {}
+[40.752099] (-) TimerEvent: {}
+[40.853239] (-) TimerEvent: {}
+[40.954187] (-) TimerEvent: {}
+[41.054989] (-) TimerEvent: {}
+[41.155842] (-) TimerEvent: {}
+[41.256788] (-) TimerEvent: {}
+[41.358164] (-) TimerEvent: {}
+[41.459847] (-) TimerEvent: {}
+[41.561448] (-) TimerEvent: {}
+[41.663002] (-) TimerEvent: {}
+[41.764481] (-) TimerEvent: {}
+[41.865959] (-) TimerEvent: {}
+[41.967664] (-) TimerEvent: {}
+[42.069043] (-) TimerEvent: {}
+[42.100336] (contact) StdoutLine: {'line': b'[100%] Built target contact\n'}
+[42.169544] (-) TimerEvent: {}
+[42.271575] (-) TimerEvent: {}
+[42.349808] (contact) CommandEnded: {'returncode': 0}
+[42.371928] (-) TimerEvent: {}
+[42.418813] (contact) JobProgress: {'identifier': 'contact', 'progress': 'install'}
+[42.419731] (contact) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact'], 'cwd': '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('___X_CMD_LOG_C_TF', ''), ('ROS_PYTHON_VERSION', '3'), ('___X_CMD_LOG_C_WARN', '\\033[1;33m'), ('LC_MONETARY', 'en_US.UTF-8'), ('COLORTERM', 'truecolor'), ('___X_CMD_LOG_C_ERROR', '\\033[1;31m'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('___X_CMD_LOG_C_DEBUG', '\\033[2;35m'), ('TERM', 'xterm-256color'), ('BASH_SILENCE_DEPRECATION_WARNING', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/bin:/root/.x-cmd.root/bin:/root/.cargo/bin:/root/.cargo/bin:/opt/ros/humble/bin:/root/.x-cmd.root/local/data/pkg/sphere/X/tree.linux.arm64.0/miniconda/v3.10.0+23.9.0-0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.x-cmd.root/local/data/triarii/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XAUTHORITY', '/home/orangepi/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('SUDO_USER', 'orangepi'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact'), ('LC_ALL', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('___X_CMD_LOG_C_INFO', '\\033[32m'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble')]), 'shell': False}
+[42.452094] (contact) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[42.453179] (contact) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/contact/contact\n'}
+[42.472032] (-) TimerEvent: {}
+[42.492424] (contact) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/contact/contact" to ""\n'}
+[42.493318] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/package_run_dependencies/contact\n'}
+[42.493959] (contact) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/parent_prefix_path/contact\n'}
+[42.494345] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/ament_prefix_path.sh\n'}
+[42.494694] (contact) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/ament_prefix_path.dsv\n'}
+[42.495030] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/path.sh\n'}
+[42.495381] (contact) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/path.dsv\n'}
+[42.495714] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.bash\n'}
+[42.496036] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.sh\n'}
+[42.496633] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.zsh\n'}
+[42.497126] (contact) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.dsv\n'}
+[42.497454] (contact) StdoutLine: {'line': b'-- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.dsv\n'}
+[42.498166] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/packages/contact\n'}
+[42.499631] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/cmake/contactConfig.cmake\n'}
+[42.502067] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/cmake/contactConfig-version.cmake\n'}
+[42.502637] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.xml\n'}
+[42.503021] (contact) CommandEnded: {'returncode': 0}
+[42.573749] (-) TimerEvent: {}
+[42.631391] (contact) JobEnded: {'identifier': 'contact', 'rc': 0}
+[42.634487] (-) EventReactorShutdown: {}

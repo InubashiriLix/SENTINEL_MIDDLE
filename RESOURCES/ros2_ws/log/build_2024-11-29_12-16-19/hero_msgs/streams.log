@@ -1,0 +1,362 @@
+[0.021s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.308s] -- The CXX compiler identification is GNU 11.4.0
+[0.335s] -- Detecting C compiler ABI info
+[0.577s] -- Detecting C compiler ABI info - done
+[0.615s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.615s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.625s] -- Detecting CXX compiler ABI info
+[0.850s] -- Detecting CXX compiler ABI info - done
+[0.864s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.865s] -- Detecting CXX compile features
+[0.865s] -- Detecting CXX compile features - done
+[0.868s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.262s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.460s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.498s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.503s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.513s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.588s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.599s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.229s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.066s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.494s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.498s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.557s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.558s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.558s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.559s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.602s] -- Found PythonExtra: .so  
+[3.711s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.714s] -- Added test 'lint_cmake' to check CMake code style
+[3.715s] -- Added test 'xmllint' to check XML markup files
+[3.720s] -- Configuring done
+[3.778s] -- Generating done
+[3.782s] -- Build files have been written to: /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs
+[3.806s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs
+[3.808s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs -- -j8 -l8
+[3.925s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.973s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.008s] [  3%] Built target ament_cmake_python_copy_hero_msgs
+[4.984s] running egg_info
+[4.986s] creating hero_msgs.egg-info
+[4.987s] writing hero_msgs.egg-info/PKG-INFO
+[4.988s] writing dependency_links to hero_msgs.egg-info/dependency_links.txt
+[4.989s] writing top-level names to hero_msgs.egg-info/top_level.txt
+[4.990s] writing manifest file 'hero_msgs.egg-info/SOURCES.txt'
+[4.995s] reading manifest file 'hero_msgs.egg-info/SOURCES.txt'
+[4.996s] writing manifest file 'hero_msgs.egg-info/SOURCES.txt'
+[5.133s] [  3%] Built target ament_cmake_python_build_hero_msgs_egg
+[5.225s] [  3%] Built target hero_msgs__cpp
+[5.242s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.257s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.257s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.311s] [  9%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.o[0m
+[5.312s] [ 11%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/auto_aim__functions.c.o[0m
+[5.320s] [ 12%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.o[0m
+[5.341s] [ 14%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.c.o[0m
+[5.349s] [ 15%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/srv/detail/vision_mode_switch__functions.c.o[0m
+[5.622s] [ 17%] [32m[1mLinking C shared library libhero_msgs__rosidl_generator_c.so[0m
+[5.695s] [ 17%] Built target hero_msgs__rosidl_generator_c
+[5.756s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.761s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.761s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.848s] [ 23%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.o[0m
+[6.872s] [ 25%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/auto_aim__type_support_c.cpp.o[0m
+[6.889s] [ 26%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.o[0m
+[7.944s] [ 28%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/auto_aim__type_support.cpp.o[0m
+[7.964s] [ 30%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c.o[0m
+[8.002s] [ 31%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/auto_aim__type_support.cpp.o[0m
+[8.196s] [ 33%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o[0m
+[8.215s] [ 34%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[8.229s] [ 36%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[8.234s] [ 38%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/auto_aim__type_support.cpp.o[0m
+[8.347s] [ 39%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/vision_mode_switch__type_support_c.cpp.o[0m
+[8.385s] [ 41%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o[0m
+[8.404s] [ 42%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.o[0m
+[8.423s] [ 44%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.cpp.o[0m
+[8.520s] [ 46%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/auto_aim__type_support.cpp.o[0m
+[8.627s] [ 47%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/srv/vision_mode_switch__type_support.cpp.o[0m
+[8.652s] [ 49%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o[0m
+[8.766s] [ 50%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.cpp.o[0m
+[8.898s] [ 52%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o[0m
+[9.025s] [ 53%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[9.066s] [ 55%] [32m[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_c.so[0m
+[9.078s] [ 57%] [32m[1mLinking C shared library libhero_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.211s] [ 57%] Built target hero_msgs__rosidl_typesupport_introspection_c
+[9.267s] [ 58%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.o[0m
+[9.303s] [ 60%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.cpp.o[0m
+[9.332s] [ 60%] Built target hero_msgs__rosidl_typesupport_c
+[9.413s] [ 61%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/vision_mode_switch__type_support.cpp.o[0m
+[9.735s] [ 63%] [32m[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.880s] [ 65%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.o[0m
+[10.131s] [ 65%] Built target hero_msgs__rosidl_typesupport_fastrtps_c
+[10.187s] [ 66%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.cpp.o[0m
+[10.204s] [ 68%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/srv/vision_mode_switch__type_support.cpp.o[0m
+[10.406s] [ 69%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.cpp.o[0m
+[10.506s] [ 71%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.o[0m
+[10.516s] [ 73%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/vision_mode_switch__type_support.cpp.o[0m
+[10.734s] [ 74%] [32mBuilding CXX object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.cpp.o[0m
+[10.918s] [ 76%] [32m[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_cpp.so[0m
+[10.986s] [ 76%] Built target hero_msgs__rosidl_typesupport_cpp
+[11.416s] [ 77%] [32m[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.422s] [ 79%] [32m[1mLinking CXX shared library libhero_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.576s] [ 79%] Built target hero_msgs__rosidl_typesupport_introspection_cpp
+[11.592s] [ 79%] Built target hero_msgs__rosidl_typesupport_fastrtps_cpp
+[11.648s] [ 79%] Built target hero_msgs
+[11.718s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.551s] [ 80%] Built target hero_msgs__py
+[13.595s] [ 84%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c.o[0m
+[13.595s] [ 84%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o[0m
+[13.610s] [ 85%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.o[0m
+[13.611s] [ 88%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o[0m
+[13.612s] [ 88%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o[0m
+[13.893s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so[0m
+[14.042s] [ 90%] Built target hero_msgs__rosidl_generator_py
+[14.101s] [ 92%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.101s] [ 93%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.112s] [ 95%] [32mBuilding C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.322s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.349s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.368s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.432s] [100%] Built target hero_msgs__rosidl_typesupport_fastrtps_c__pyext
+[14.448s] [100%] Built target hero_msgs__rosidl_typesupport_c__pyext
+[14.448s] [100%] Built target hero_msgs__rosidl_typesupport_introspection_c__pyext
+[14.488s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs -- -j8 -l8
+[14.828s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs
+[14.846s] -- Install configuration: ""
+[14.847s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/rosidl_interfaces/hero_msgs
+[14.847s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs
+[14.848s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg
+[14.848s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail
+[14.849s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__functions.h
+[14.849s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__struct.h
+[14.850s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__functions.c
+[14.850s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__type_support.h
+[14.851s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.h
+[14.851s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__struct.h
+[14.852s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.c
+[14.853s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.h
+[14.853s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__functions.c
+[14.854s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.h
+[14.854s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__type_support.h
+[14.855s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__functions.h
+[14.855s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/dual_loop_pid_with_filter.h
+[14.856s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/auto_aim.h
+[14.856s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/motion.h
+[14.857s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.857s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv
+[14.858s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail
+[14.858s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__struct.h
+[14.859s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__type_support.h
+[14.859s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__functions.h
+[14.860s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__functions.c
+[14.860s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__struct.h
+[14.861s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__type_support.h
+[14.861s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__functions.c
+[14.862s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__functions.h
+[14.862s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/reset_motor_position.h
+[14.862s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/vision_mode_switch.h
+[14.863s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/library_path.sh
+[14.863s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/library_path.dsv
+[14.863s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_c.so
+[14.864s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_c.so" to ""
+[14.864s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs
+[14.864s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg
+[14.864s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail
+[14.865s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_fastrtps_c.h
+[14.865s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_c.h
+[14.865s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_fastrtps_c.h
+[14.866s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.866s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv
+[14.866s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail
+[14.867s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_fastrtps_c.h
+[14.867s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_fastrtps_c.h
+[14.867s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_c.so
+[14.868s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.868s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs
+[14.868s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg
+[14.869s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail
+[14.869s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__traits.hpp
+[14.869s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__builder.hpp
+[14.870s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__builder.hpp
+[14.870s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__traits.hpp
+[14.870s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__traits.hpp
+[14.871s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__struct.hpp
+[14.871s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__builder.hpp
+[14.871s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.hpp
+[14.872s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__struct.hpp
+[14.872s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/auto_aim.hpp
+[14.872s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/dual_loop_pid_with_filter.hpp
+[14.873s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/motion.hpp
+[14.873s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv
+[14.873s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/vision_mode_switch.hpp
+[14.874s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail
+[14.874s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__traits.hpp
+[14.874s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__struct.hpp
+[14.875s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__traits.hpp
+[14.875s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__builder.hpp
+[14.875s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__struct.hpp
+[14.876s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__builder.hpp
+[14.876s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/reset_motor_position.hpp
+[14.877s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs
+[14.877s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg
+[14.877s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail
+[14.878s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_fastrtps_cpp.hpp
+[14.878s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dds_fastrtps
+[14.878s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_fastrtps_cpp.hpp
+[14.879s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp
+[14.879s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.879s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv
+[14.880s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail
+[14.880s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/dds_fastrtps
+[14.880s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[14.880s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_fastrtps_cpp.hpp
+[14.881s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.881s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.881s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs
+[14.882s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg
+[14.882s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail
+[14.882s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_c.h
+[14.883s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__type_support.c
+[14.883s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_introspection_c.h
+[14.883s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__type_support.c
+[14.884s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
+[14.884s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c
+[14.884s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.885s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv
+[14.885s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail
+[14.885s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_c.h
+[14.886s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__type_support.c
+[14.886s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_c.h
+[14.886s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__type_support.c
+[14.887s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_c.so
+[14.887s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.887s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_c.so
+[14.888s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_c.so" to ""
+[14.888s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs
+[14.888s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg
+[14.889s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail
+[14.889s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__type_support.cpp
+[14.889s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_cpp.hpp
+[14.890s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_cpp.hpp
+[14.890s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/auto_aim__type_support.cpp
+[14.890s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp
+[14.891s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp
+[14.891s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv
+[14.891s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail
+[14.892s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_cpp.hpp
+[14.892s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_cpp.hpp
+[14.892s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/vision_mode_switch__type_support.cpp
+[14.893s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/include/hero_msgs/hero_msgs/srv/detail/reset_motor_position__type_support.cpp
+[14.893s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_cpp.so
+[14.893s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.894s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_cpp.so
+[14.894s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_typesupport_cpp.so" to ""
+[14.894s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/pythonpath.sh
+[14.895s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/pythonpath.dsv
+[14.895s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info
+[14.895s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_motion.py
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_auto_aim.py
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/__init__.py
+[14.896s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_motion_s.c
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_dual_loop_pid_with_filter_s.c
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_auto_aim_s.c
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_dual_loop_pid_with_filter.py
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/__init__.py
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_c.c
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_vision_mode_switch.py
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/__init__.py
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_vision_mode_switch_s.c
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_reset_motor_position_s.c
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_reset_motor_position.py
+[14.897s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/libhero_msgs__rosidl_generator_py.so
+[14.898s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.940s] Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs'...
+[14.940s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/__init__.py'...
+[14.940s] Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg'...
+[14.940s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/__init__.py'...
+[14.940s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_auto_aim.py'...
+[14.940s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_dual_loop_pid_with_filter.py'...
+[14.940s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/msg/_motion.py'...
+[14.941s] Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv'...
+[14.941s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/__init__.py'...
+[14.941s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_reset_motor_position.py'...
+[14.941s] Compiling '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/srv/_vision_mode_switch.py'...
+[14.954s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.955s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.956s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.958s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.959s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.960s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages/hero_msgs/hero_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.960s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_py.so
+[14.962s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/libhero_msgs__rosidl_generator_py.so" to ""
+[14.962s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/AutoAIM.idl
+[14.962s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/DualLoopPIDWithFilter.idl
+[14.963s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/Motion.idl
+[14.963s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch.idl
+[14.964s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition.idl
+[14.964s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/AutoAIM.msg
+[14.964s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/DualLoopPIDWithFilter.msg
+[14.965s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/msg/Motion.msg
+[14.965s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch.srv
+[14.966s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch_Request.msg
+[14.966s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/VisionModeSwitch_Response.msg
+[14.966s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition.srv
+[14.967s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition_Request.msg
+[14.967s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/srv/ResetMotorPosition_Response.msg
+[14.968s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/package_run_dependencies/hero_msgs
+[14.968s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/parent_prefix_path/hero_msgs
+[14.969s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/ament_prefix_path.sh
+[14.969s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/ament_prefix_path.dsv
+[14.969s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/path.sh
+[14.970s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/environment/path.dsv
+[14.970s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.bash
+[14.971s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.sh
+[14.971s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.zsh
+[14.972s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/local_setup.dsv
+[14.972s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.dsv
+[14.972s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/ament_index/resource_index/packages/hero_msgs
+[14.973s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cExport.cmake
+[14.973s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.974s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.974s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.975s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cppExport.cmake
+[14.975s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.976s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.977s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.978s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.978s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cExport.cmake
+[14.978s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.979s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.979s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.979s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cppExport.cmake
+[14.979s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.980s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_pyExport.cmake
+[14.980s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.981s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/rosidl_cmake-extras.cmake
+[14.981s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.981s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.982s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.982s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.982s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.983s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.983s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgsConfig.cmake
+[14.984s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake/hero_msgsConfig-version.cmake
+[14.984s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.xml
+[14.988s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs

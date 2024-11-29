@@ -97,10 +97,24 @@ CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c -o CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.s
 
+CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o: CMakeFiles/hero_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o: rosidl_generator_py/hero_msgs/msg/_motion_s.c
+CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o: CMakeFiles/hero_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o -MF CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o.d -o CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o -c /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_py/hero_msgs/msg/_motion_s.c
+
+CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_py/hero_msgs/msg/_motion_s.c > CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.i
+
+CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_py/hero_msgs/msg/_motion_s.c -o CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.s
+
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o: CMakeFiles/hero_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o: rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o: CMakeFiles/hero_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o -MF CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o.d -o CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o -c /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c
 
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o: CMakeFiles/hero_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o: rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o: CMakeFiles/hero_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o -MF CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o.d -o CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o -c /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c
 
 CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.i: cmake_force
@@ -129,6 +143,7 @@ CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/
 hero_msgs__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c.o" \
 "CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.o" \
+"CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o" \
 "CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o" \
 "CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o"
 
@@ -137,6 +152,7 @@ hero_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c.o
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.o
+rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c.o
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: CMakeFiles/hero_msgs__rosidl_generator_py.dir/build.make
@@ -153,7 +169,7 @@ rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: /opt/ros/hum
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so: CMakeFiles/hero_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/hero_msgs/libhero_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hero_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

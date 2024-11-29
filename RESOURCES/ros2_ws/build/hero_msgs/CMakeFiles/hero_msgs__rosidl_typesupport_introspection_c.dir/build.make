@@ -79,6 +79,7 @@ rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesup
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h: rosidl_adapter/hero_msgs/msg/AutoAIM.idl
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h: rosidl_adapter/hero_msgs/msg/DualLoopPIDWithFilter.idl
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h: rosidl_adapter/hero_msgs/msg/Motion.idl
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h: rosidl_adapter/hero_msgs/srv/VisionModeSwitch.idl
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h: rosidl_adapter/hero_msgs/srv/ResetMotorPosition.idl
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -119,6 +120,9 @@ rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesup
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_c.h
 
@@ -130,6 +134,9 @@ rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c
 
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c
+
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c
 
 rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c
@@ -165,10 +172,24 @@ CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c -o CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.s
 
+CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c
+CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o -MF CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o.d -o CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o -c /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c
+
+CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c > CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.i
+
+CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c -o CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.s
+
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o: rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o -MF CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o.d -o CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o -c /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c
 
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.i: cmake_force
@@ -182,7 +203,7 @@ CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o: rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o -MF CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o.d -o CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o -c /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c
 
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.i: cmake_force
@@ -197,6 +218,7 @@ CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_
 hero_msgs__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c.o" \
 "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o" \
+"CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o" \
 "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o" \
 "CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o"
 
@@ -205,6 +227,7 @@ hero_msgs__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libhero_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c.o
 libhero_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.o
+libhero_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o
 libhero_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__type_support.c.o
 libhero_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o
 libhero_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/build.make
@@ -217,7 +240,7 @@ libhero_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libbuil
 libhero_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libhero_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libhero_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libhero_msgs__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libhero_msgs__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -232,6 +255,8 @@ CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_type
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/auto_aim__type_support.c
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__rosidl_typesupport_introspection_c.h
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c
+CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__rosidl_typesupport_introspection_c.h
+CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__rosidl_typesupport_introspection_c.h
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c
 CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/hero_msgs/srv/detail/vision_mode_switch__rosidl_typesupport_introspection_c.h

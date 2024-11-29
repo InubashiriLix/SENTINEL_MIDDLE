@@ -1,0 +1,7 @@
+In file included from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:3[m[K:
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:37:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   37 |   [01;35m[Ktypedef[m[K struct ProjectileRx {
+      |   [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:54:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   54 |   [01;35m[Ktypedef[m[K struct MotionRx {
+      |   [01;35m[K^~~~~~~[m[K

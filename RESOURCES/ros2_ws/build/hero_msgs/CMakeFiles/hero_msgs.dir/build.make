@@ -68,6 +68,7 @@ include CMakeFiles/hero_msgs.dir/progress.make
 
 CMakeFiles/hero_msgs: /home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs/msg/AutoAIM.msg
 CMakeFiles/hero_msgs: /home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs/msg/DualLoopPIDWithFilter.msg
+CMakeFiles/hero_msgs: /home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs/msg/Motion.msg
 CMakeFiles/hero_msgs: /home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs/srv/VisionModeSwitch.srv
 CMakeFiles/hero_msgs: rosidl_cmake/srv/VisionModeSwitch_Request.msg
 CMakeFiles/hero_msgs: rosidl_cmake/srv/VisionModeSwitch_Response.msg

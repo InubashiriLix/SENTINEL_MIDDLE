@@ -1,0 +1,24 @@
+[0.023s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/contact:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/contact -- -j8 -l8
+[0.189s] [ 50%] Built target serial
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target contact[0m
+[0.312s] [100%] Built target contact
+[0.361s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/contact:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/contact -- -j8 -l8
+[0.449s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/contact:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/contact
+[0.478s] -- Install configuration: ""
+[0.478s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/contact/contact
+[0.479s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/package_run_dependencies/contact
+[0.479s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/parent_prefix_path/contact
+[0.479s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/ament_prefix_path.sh
+[0.480s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/ament_prefix_path.dsv
+[0.480s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/path.sh
+[0.481s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/path.dsv
+[0.481s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.bash
+[0.481s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.sh
+[0.482s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.zsh
+[0.482s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.dsv
+[0.482s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.dsv
+[0.483s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/packages/contact
+[0.483s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/cmake/contactConfig.cmake
+[0.483s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/cmake/contactConfig-version.cmake
+[0.484s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.xml
+[0.490s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/contact:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/contact

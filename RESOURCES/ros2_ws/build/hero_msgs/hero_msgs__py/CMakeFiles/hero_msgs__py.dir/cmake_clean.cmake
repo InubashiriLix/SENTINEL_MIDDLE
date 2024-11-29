@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c"
   "../rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter.py"
   "../rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c"
+  "../rosidl_generator_py/hero_msgs/msg/_motion.py"
+  "../rosidl_generator_py/hero_msgs/msg/_motion_s.c"
   "../rosidl_generator_py/hero_msgs/srv/__init__.py"
   "../rosidl_generator_py/hero_msgs/srv/_reset_motor_position.py"
   "../rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c"

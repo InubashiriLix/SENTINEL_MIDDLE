@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs:msg/AutoAIM.msg",
     "/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs:msg/DualLoopPIDWithFilter.msg",
+    "/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs:msg/Motion.msg",
     "/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs:srv/VisionModeSwitch.srv",
     "/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs:srv/ResetMotorPosition.srv"
   ]

@@ -212,6 +212,9 @@ CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gener
  /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.h \
  /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__struct.h \
  /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.h \
+ /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/msg/detail/motion__type_support.h \
+ /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/msg/detail/motion__struct.h \
+ /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/msg/detail/motion__functions.h \
  /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/srv/detail/vision_mode_switch__type_support.h \
  /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/srv/detail/vision_mode_switch__struct.h \
  /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_generator_c/hero_msgs/srv/detail/vision_mode_switch__functions.h \

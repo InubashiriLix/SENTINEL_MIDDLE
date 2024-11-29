@@ -4,3 +4,10 @@ hero_msgs.egg-info/PKG-INFO
 hero_msgs.egg-info/SOURCES.txt
 hero_msgs.egg-info/dependency_links.txt
 hero_msgs.egg-info/top_level.txt
+hero_msgs/msg/__init__.py
+hero_msgs/msg/_auto_aim.py
+hero_msgs/msg/_dual_loop_pid_with_filter.py
+hero_msgs/msg/_motion.py
+hero_msgs/srv/__init__.py
+hero_msgs/srv/_reset_motor_position.py
+hero_msgs/srv/_vision_mode_switch.py

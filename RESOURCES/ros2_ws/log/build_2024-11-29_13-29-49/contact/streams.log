@@ -1,0 +1,92 @@
+[0.021s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact': AMENT_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/GM/RESOURCES/ros2_ws/src/contact -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/contact
+[0.059s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.310s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.345s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.348s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.355s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.427s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.428s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.584s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.653s] -- Found hero_msgs: 0.0.1 (/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/cmake)
+[0.673s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.840s] -- Configuring done
+[0.882s] -- Generating done
+[0.899s] -- Build files have been written to: /home/orangepi/GM/RESOURCES/ros2_ws/build/contact
+[0.937s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact' returned '0': AMENT_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/GM/RESOURCES/ros2_ws/src/contact -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/contact
+[0.941s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact': AMENT_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/contact -- -j8 -l8
+[1.066s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[1.096s] [ 12%] [32mBuilding CXX object serial/lib/CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.104s] [ 25%] [32mBuilding CXX object serial/lib/CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.105s] [ 37%] [32mBuilding CXX object serial/lib/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.653s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.654s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.654s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[1.655s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.655s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.655s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[1.656s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[1.660s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[1.661s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.661s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[1.662s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.140s] [ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[2.350s] [ 50%] Built target serial
+[2.387s] [35m[1mConsolidate compiler generated dependencies of target contact[0m
+[2.446s] [ 75%] [32mBuilding CXX object CMakeFiles/contact.dir/src/CommPort.cpp.o[0m
+[2.447s] [ 75%] [32mBuilding CXX object CMakeFiles/contact.dir/src/ContactNode.cpp.o[0m
+[2.448s] [ 87%] [32mBuilding CXX object CMakeFiles/contact.dir/src/Checksum.cpp.o[0m
+[7.660s] In file included from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:1[m[K:
+[7.661s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:37:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+[7.661s]    37 |   [01;35m[Ktypedef[m[K struct ProjectileRx {
+[7.662s]       |   [01;35m[K^~~~~~~[m[K
+[7.662s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:54:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+[7.662s]    54 |   [01;35m[Ktypedef[m[K struct MotionRx {
+[7.663s]       |   [01;35m[K^~~~~~~[m[K
+[7.670s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:[m[K In constructor ‘[01m[KCommPort::CommPort()[m[K’:
+[7.671s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:4:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[7.671s]     4 |   char *device = [01;35m[K"/dev/ttyACM0"[m[K;
+[7.672s]       |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.685s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:[m[K In member function ‘[01m[Kfloat* CommPort::getQuaternion()[m[K’:
+[7.686s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:211:21:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[KCommPort::ProjectileRx[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[7.686s]   211 |   return [01;35m[Krx_struct_.q[m[K;
+[7.687s]       |          [01;35m[K~~~~~~~~~~~^[m[K
+[7.687s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:[m[K In member function ‘[01m[Kuint16_t* CommPort::get_enemy_hp()[m[K’:
+[7.688s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:234:62:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[KCommPort::ProjectileRx[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+[7.688s]   234 | uint16_t *CommPort::get_enemy_hp() { return [01;35m[Kthis->rx_struct_.enemy_hp[m[K; }
+[7.688s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.688s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:[m[K In member function ‘[01m[Kvoid CommPort::update_send_motion(double, double, double)[m[K’:
+[7.689s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/CommPort.cpp:268:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ktx_buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[7.689s]   268 |   uint8_t [01;35m[Ktx_buffer[m[K[MotionRxSize];
+[7.689s]       |           [01;35m[K^~~~~~~~~[m[K
+[7.915s] In file included from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:3[m[K:
+[7.915s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:37:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+[7.916s]    37 |   [01;35m[Ktypedef[m[K struct ProjectileRx {
+[7.916s]       |   [01;35m[K^~~~~~~[m[K
+[7.916s] [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:54:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+[7.917s]    54 |   [01;35m[Ktypedef[m[K struct MotionRx {
+[7.917s]       |   [01;35m[K^~~~~~~[m[K
+[30.393s] [100%] [32m[1mLinking CXX executable contact[0m
+[32.284s] [100%] Built target contact
+[32.536s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact' returned '0': AMENT_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/contact -- -j8 -l8
+[32.605s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact': AMENT_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/contact
+[32.636s] -- Install configuration: "Debug"
+[32.636s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/contact/contact
+[32.676s] -- Set runtime path of "/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/contact/contact" to ""
+[32.677s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/package_run_dependencies/contact
+[32.677s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/parent_prefix_path/contact
+[32.678s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/ament_prefix_path.sh
+[32.678s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/ament_prefix_path.dsv
+[32.678s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/path.sh
+[32.679s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/environment/path.dsv
+[32.679s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.bash
+[32.680s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.sh
+[32.680s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.zsh
+[32.680s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/local_setup.dsv
+[32.681s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.dsv
+[32.682s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/ament_index/resource_index/packages/contact
+[32.685s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/cmake/contactConfig.cmake
+[32.685s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/cmake/contactConfig-version.cmake
+[32.686s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.xml
+[32.687s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact' returned '0': AMENT_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/contact

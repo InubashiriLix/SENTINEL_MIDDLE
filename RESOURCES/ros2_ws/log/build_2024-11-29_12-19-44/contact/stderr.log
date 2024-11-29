@@ -1,0 +1,104 @@
+In file included from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:3[m[K:
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:37:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   37 |   [01;35m[Ktypedef[m[K struct ProjectileRx {
+      |   [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:54:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   54 |   [01;35m[Ktypedef[m[K struct MotionRx {
+      |   [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:128:37:[m[K [01;31m[Kerror: [m[K‘[01m[KMotion[m[K’ is not a member of ‘[01m[Khero_msgs::msg[m[K’
+  128 |   rclcpp::Publisher<hero_msgs::msg::[01;31m[KMotion[m[K>::SharedPtr _motion_pub_;
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:128:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  128 |   rclcpp::Publisher<hero_msgs::msg::Motion[01;31m[K>[m[K::SharedPtr _motion_pub_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:128:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  128 |   rclcpp::Publisher<hero_msgs::msg::Motion>::[01;31m[KSharedPtr[m[K _motion_pub_;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:128:56:[m[K [01;31m[Kerror: [m[K‘[01m[K_motion_pub_[m[K’ does not name a type
+  128 |   rclcpp::Publisher<hero_msgs::msg::Motion>::SharedPtr [01;31m[K_motion_pub_[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:40:[m[K [01;31m[Kerror: [m[K‘[01m[KMotion[m[K’ is not a member of ‘[01m[Khero_msgs::msg[m[K’
+  132 |   rclcpp::Subscription<hero_msgs::msg::[01;31m[KMotion[m[K>::SharedPtr _motion_sub_;
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  132 |   rclcpp::Subscription<hero_msgs::msg::Motion[01;31m[K>[m[K::SharedPtr _motion_sub_;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  132 |   rclcpp::Subscription<hero_msgs::msg::Motion>::[01;31m[KSharedPtr[m[K _motion_sub_;
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:49:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint ContactNode::SharedPtr[m[K’
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:128:46:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint ContactNode::SharedPtr[m[K’
+  128 |   rclcpp::Publisher<hero_msgs::msg::Motion>::[01;36m[KSharedPtr[m[K _motion_pub_;
+      |                                              [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:132:59:[m[K [01;31m[Kerror: [m[K‘[01m[K_motion_sub_[m[K’ does not name a type
+  132 |   rclcpp::Subscription<hero_msgs::msg::Motion>::SharedPtr [01;31m[K_motion_sub_[m[K;
+      |                                                           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:[m[K In constructor ‘[01m[KContactNode::ContactNode()[m[K’:
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_motion_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[K_mode_pub_[m[K’?
+   23 |     [01;31m[K_motion_pub_[m[K =
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[K_mode_pub_[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:24:48:[m[K [01;31m[Kerror: [m[K‘[01m[KMotion[m[K’ is not a member of ‘[01m[Khero_msgs::msg[m[K’
+   24 |         this->create_publisher<hero_msgs::msg::[01;31m[KMotion[m[K>("/Motion", 1000);
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:24:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KContactNode::create_publisher<<expression error> >(const char [8], int)[m[K’
+   24 |         [01;31m[Kthis->create_publisher<hero_msgs::msg::Motion>("/Motion", 1000)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:7[m[K,
+                 from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:24:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |         [01;31m[Kthis->create_publisher<hero_msgs::msg::Motion>("/Motion", 1000)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_motion_sub_[m[K’ was not declared in this scope
+   30 |     [01;31m[K_motion_sub_[m[K = this->create_subscription<hero_msgs::msg::Motion>(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:30:62:[m[K [01;31m[Kerror: [m[K‘[01m[KMotion[m[K’ is not a member of ‘[01m[Khero_msgs::msg[m[K’
+   30 |     _motion_sub_ = this->create_subscription<hero_msgs::msg::[01;31m[KMotion[m[K>(
+      |                                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:30:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KContactNode::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (ContactNode::*)(), ContactNode*>::type)[m[K’
+   30 |     _motion_sub_ = [01;31m[Kthis->create_subscription<hero_msgs::msg::Motion>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   31 | [01;31m[K        "/Motion", 1000, std::bind(&ContactNode::publishMotion, this))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include/CommPort.h:7[m[K,
+                 from [01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:30:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |     _motion_sub_ = [01;31m[Kthis->create_subscription<hero_msgs::msg::Motion>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   31 | [01;31m[K        "/Motion", 1000, std::bind(&ContactNode::publishMotion, this))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:[m[K In member function ‘[01m[Kvoid ContactNode::publishMotion()[m[K’:
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:105:21:[m[K [01;31m[Kerror: [m[K‘[01m[KMotion[m[K’ is not a member of ‘[01m[Khero_msgs::msg[m[K’
+  105 |     hero_msgs::msg::[01;31m[KMotion[m[K motion_msg;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_msg[m[K’ was not declared in this scope
+  108 |     [01;31m[Kmotion_msg[m[K.linear_x = linear_x;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/src/ContactNode.cpp:118:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_motion_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[K_mode_pub_[m[K’?
+  118 |     [01;31m[K_motion_pub_[m[K->publish(motion_msg);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[K_mode_pub_[m[K
+gmake[2]: *** [CMakeFiles/contact.dir/build.make:76: CMakeFiles/contact.dir/src/ContactNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/contact.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

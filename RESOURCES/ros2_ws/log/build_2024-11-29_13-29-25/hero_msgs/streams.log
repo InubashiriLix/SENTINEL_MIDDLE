@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs -- -j8 -l8
+[0.133s] [  1%] Built target hero_msgs__cpp
+[0.143s] [  1%] Built target ament_cmake_python_copy_hero_msgs
+[0.146s] [ 12%] Built target hero_msgs__rosidl_generator_c
+[0.194s] [ 23%] Built target hero_msgs__rosidl_typesupport_cpp
+[0.196s] [ 34%] Built target hero_msgs__rosidl_typesupport_fastrtps_cpp
+[0.205s] [ 46%] Built target hero_msgs__rosidl_typesupport_introspection_cpp
+[0.237s] [ 57%] Built target hero_msgs__rosidl_typesupport_introspection_c
+[0.246s] [ 68%] Built target hero_msgs__rosidl_typesupport_fastrtps_c
+[0.255s] [ 79%] Built target hero_msgs__rosidl_typesupport_c
+[0.316s] [ 79%] Built target hero_msgs
+[0.368s] [ 80%] Built target hero_msgs__py
+[0.433s] [ 90%] Built target hero_msgs__rosidl_generator_py
+[0.473s] [ 93%] Built target hero_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.495s] [ 96%] Built target hero_msgs__rosidl_typesupport_introspection_c__pyext
+[0.496s] running egg_info
+[0.497s] writing hero_msgs.egg-info/PKG-INFO
+[0.497s] writing dependency_links to hero_msgs.egg-info/dependency_links.txt
+[0.499s] writing top-level names to hero_msgs.egg-info/top_level.txt
+[0.504s] reading manifest file 'hero_msgs.egg-info/SOURCES.txt'
+[0.505s] writing manifest file 'hero_msgs.egg-info/SOURCES.txt'
+[0.507s] [100%] Built target hero_msgs__rosidl_typesupport_c__pyext
+[0.572s] [100%] Built target ament_cmake_python_build_hero_msgs_egg
+[0.588s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs -- -j8 -l8
+[0.835s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs

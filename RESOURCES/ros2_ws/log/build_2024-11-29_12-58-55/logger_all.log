@@ -1,0 +1,280 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa4c9fa00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa4e04640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa4e04640>>)
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.301s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/GM/RESOURCES/ros2_ws'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/contact) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/contact' with type 'ros.ament_cmake' and name 'contact'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/hero_msgs) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hero_msgs' with type 'ros.ament_cmake' and name 'hero_msgs'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_msgs) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_msgs' with type 'ros.ament_cmake' and name 'vision_msgs'
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'hero_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'hero_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs', 'merge_install': False, 'path': '/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'vision_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'vision_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs', 'merge_install': False, 'path': '/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'contact' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'contact' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact', 'merge_install': False, 'path': '/home/orangepi/GM/RESOURCES/ros2_ws/src/contact', 'symlink_install': False, 'test_result_base': None}
+[0.352s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.353s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs'
+[0.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs' with build type 'ament_cmake'
+[0.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs -- -j8 -l8
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs -- -j8 -l8
+[1.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs -- -j8 -l8
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs -- -j8 -l8
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs
+[1.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs
+[1.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs)
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs' for CMake module files
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs' for CMake config files
+[1.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'cmake_prefix_path')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.dsv'
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.sh'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib'
+[1.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'ld_library_path_lib')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.ps1'
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.dsv'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.sh'
+[1.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/bin'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/pkgconfig/vision_msgs.pc'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/python3.10/site-packages'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/bin'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.dsv'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.sh'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.bash'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.zsh'
+[1.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/colcon-core/packages/vision_msgs)
+[1.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hero_msgs)
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs' for CMake module files
+[1.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs' for CMake config files
+[1.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('hero_msgs', 'cmake_prefix_path')
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/cmake_prefix_path.ps1'
+[1.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/cmake_prefix_path.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/cmake_prefix_path.sh'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib'
+[1.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('hero_msgs', 'ld_library_path_lib')
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/ld_library_path_lib.ps1'
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/ld_library_path_lib.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/ld_library_path_lib.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/bin'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/pkgconfig/hero_msgs.pc'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/python3.10/site-packages'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/bin'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.sh'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.bash'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.zsh'
+[1.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/colcon-core/packages/hero_msgs)
+[1.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_msgs)
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs' for CMake module files
+[1.722s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs' for CMake config files
+[1.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'cmake_prefix_path')
+[1.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.ps1'
+[1.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.dsv'
+[1.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/cmake_prefix_path.sh'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib'
+[1.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_msgs', 'ld_library_path_lib')
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.ps1'
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.dsv'
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/hook/ld_library_path_lib.sh'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/bin'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/pkgconfig/vision_msgs.pc'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/python3.10/site-packages'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/bin'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.ps1'
+[1.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.dsv'
+[1.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.sh'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.bash'
+[1.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.zsh'
+[1.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/colcon-core/packages/vision_msgs)
+[1.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hero_msgs)
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs' for CMake module files
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs' for CMake config files
+[1.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('hero_msgs', 'cmake_prefix_path')
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/cmake_prefix_path.ps1'
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/cmake_prefix_path.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/cmake_prefix_path.sh'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib'
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('hero_msgs', 'ld_library_path_lib')
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/ld_library_path_lib.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/ld_library_path_lib.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/hook/ld_library_path_lib.sh'
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/bin'
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/pkgconfig/hero_msgs.pc'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib/python3.10/site-packages'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/bin'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.ps1'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.dsv'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.sh'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.bash'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/hero_msgs/package.zsh'
+[1.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/share/colcon-core/packages/hero_msgs)
+[1.805s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/GM/RESOURCES/ros2_ws/src/contact' with build type 'ament_cmake'
+[1.805s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/GM/RESOURCES/ros2_ws/src/contact'
+[1.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/contact -- -j8 -l8
+[26.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/contact -- -j8 -l8
+[26.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/contact
+[26.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(contact)
+[26.928s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact' for CMake module files
+[26.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/contact' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/GM/RESOURCES/ros2_ws/install/hero_msgs/lib:/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib:/root/.x-cmd.root/local/data/pkg/sphere/X/l/j/h/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/contact
+[26.930s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact' for CMake config files
+[26.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('contact', 'cmake_prefix_path')
+[26.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/hook/cmake_prefix_path.ps1'
+[26.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/hook/cmake_prefix_path.dsv'
+[26.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/hook/cmake_prefix_path.sh'
+[26.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib'
+[26.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/bin'
+[26.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/pkgconfig/contact.pc'
+[26.936s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/python3.10/site-packages'
+[26.937s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/bin'
+[26.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.ps1'
+[26.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.dsv'
+[26.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.sh'
+[26.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.bash'
+[26.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.zsh'
+[26.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/colcon-core/packages/contact)
+[27.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(contact)
+[27.032s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact' for CMake module files
+[27.034s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact' for CMake config files
+[27.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('contact', 'cmake_prefix_path')
+[27.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/hook/cmake_prefix_path.ps1'
+[27.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/hook/cmake_prefix_path.dsv'
+[27.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/hook/cmake_prefix_path.sh'
+[27.041s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib'
+[27.041s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/bin'
+[27.041s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/pkgconfig/contact.pc'
+[27.042s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/lib/python3.10/site-packages'
+[27.042s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/bin'
+[27.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.ps1'
+[27.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.dsv'
+[27.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.sh'
+[27.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.bash'
+[27.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/contact/package.zsh'
+[27.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/GM/RESOURCES/ros2_ws/install/contact/share/colcon-core/packages/contact)
+[27.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.101s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.101s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.101s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.124s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.124s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.124s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.182s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/RESOURCES/ros2_ws/install/local_setup.ps1'
+[27.188s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/GM/RESOURCES/ros2_ws/install/_local_setup_util_ps1.py'
+[27.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/RESOURCES/ros2_ws/install/setup.ps1'
+[27.195s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/RESOURCES/ros2_ws/install/local_setup.sh'
+[27.197s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/GM/RESOURCES/ros2_ws/install/_local_setup_util_sh.py'
+[27.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/RESOURCES/ros2_ws/install/setup.sh'
+[27.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/RESOURCES/ros2_ws/install/local_setup.bash'
+[27.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/RESOURCES/ros2_ws/install/setup.bash'
+[27.204s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/GM/RESOURCES/ros2_ws/install/local_setup.zsh'
+[27.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/GM/RESOURCES/ros2_ws/install/setup.zsh'

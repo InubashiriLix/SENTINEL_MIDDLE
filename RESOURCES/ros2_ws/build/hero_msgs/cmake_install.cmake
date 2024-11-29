@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -364,6 +364,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/msg" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_adapter/hero_msgs/msg/Motion.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/srv" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/rosidl_adapter/hero_msgs/srv/VisionModeSwitch.idl")
 endif()
 
@@ -377,6 +381,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/msg" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs/msg/DualLoopPIDWithFilter.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/msg" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/src/hero_msgs/msg/Motion.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -465,8 +473,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_cExport-debug.cmake")
   endif()
 endif()
 
@@ -484,8 +492,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cExport-debug.cmake")
   endif()
 endif()
 
@@ -519,8 +527,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_typesupport_fastrtps_cppExport-debug.cmake")
   endif()
 endif()
 
@@ -538,8 +546,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cExport-debug.cmake")
   endif()
 endif()
 
@@ -557,8 +565,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cExport-debug.cmake")
   endif()
 endif()
 
@@ -576,8 +584,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_introspection_cppExport-debug.cmake")
   endif()
 endif()
 
@@ -595,8 +603,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cppExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/hero_msgs__rosidl_typesupport_cppExport-debug.cmake")
   endif()
 endif()
 
@@ -614,8 +622,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_pyExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_pyExport-noconfig.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hero_msgs/cmake" TYPE FILE FILES "/home/orangepi/GM/RESOURCES/ros2_ws/build/hero_msgs/CMakeFiles/Export/share/hero_msgs/cmake/export_hero_msgs__rosidl_generator_pyExport-debug.cmake")
   endif()
 endif()
 

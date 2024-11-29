@@ -24,9 +24,9 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 set(msg_files
-
         msg/AutoAIM.msg
         msg/DualLoopPIDWithFilter.msg
+        msg/Motion.msg
         )
 
 set(srv_files

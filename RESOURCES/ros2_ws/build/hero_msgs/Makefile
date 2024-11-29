@@ -453,6 +453,30 @@ rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_c.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.s
 .PHONY : rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.c.s
 
+rosidl_generator_c/hero_msgs/msg/detail/motion__functions.o: rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.o
+.PHONY : rosidl_generator_c/hero_msgs/msg/detail/motion__functions.o
+
+# target to build an object file
+rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_c.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.o
+.PHONY : rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.o
+
+rosidl_generator_c/hero_msgs/msg/detail/motion__functions.i: rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.i
+.PHONY : rosidl_generator_c/hero_msgs/msg/detail/motion__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_c.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.i
+.PHONY : rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.i
+
+rosidl_generator_c/hero_msgs/msg/detail/motion__functions.s: rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.s
+.PHONY : rosidl_generator_c/hero_msgs/msg/detail/motion__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_c.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_c.dir/rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.s
+.PHONY : rosidl_generator_c/hero_msgs/msg/detail/motion__functions.c.s
+
 rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.o: rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.c.o
 .PHONY : rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.o
 
@@ -621,6 +645,30 @@ rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_py.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.s
 .PHONY : rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c.s
 
+rosidl_generator_py/hero_msgs/msg/_motion_s.o: rosidl_generator_py/hero_msgs/msg/_motion_s.c.o
+.PHONY : rosidl_generator_py/hero_msgs/msg/_motion_s.o
+
+# target to build an object file
+rosidl_generator_py/hero_msgs/msg/_motion_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_py.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.o
+.PHONY : rosidl_generator_py/hero_msgs/msg/_motion_s.c.o
+
+rosidl_generator_py/hero_msgs/msg/_motion_s.i: rosidl_generator_py/hero_msgs/msg/_motion_s.c.i
+.PHONY : rosidl_generator_py/hero_msgs/msg/_motion_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/hero_msgs/msg/_motion_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_py.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.i
+.PHONY : rosidl_generator_py/hero_msgs/msg/_motion_s.c.i
+
+rosidl_generator_py/hero_msgs/msg/_motion_s.s: rosidl_generator_py/hero_msgs/msg/_motion_s.c.s
+.PHONY : rosidl_generator_py/hero_msgs/msg/_motion_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/hero_msgs/msg/_motion_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_generator_py.dir/build.make CMakeFiles/hero_msgs__rosidl_generator_py.dir/rosidl_generator_py/hero_msgs/msg/_motion_s.c.s
+.PHONY : rosidl_generator_py/hero_msgs/msg/_motion_s.c.s
+
 rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.o: rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c.o
 .PHONY : rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.o
 
@@ -716,6 +764,30 @@ rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.s: ro
 rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.s
+
+rosidl_typesupport_c/hero_msgs/msg/motion__type_support.o: rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hero_msgs/msg/motion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.o
+
+rosidl_typesupport_c/hero_msgs/msg/motion__type_support.i: rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hero_msgs/msg/motion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.i
+
+rosidl_typesupport_c/hero_msgs/msg/motion__type_support.s: rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hero_msgs/msg/motion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/hero_msgs/msg/motion__type_support.cpp.s
 
 rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.o: rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.o
@@ -813,6 +885,30 @@ rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.cpp.s
 
+rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.o: rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.o
+
+rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.i: rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.i
+
+rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.s: rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.cpp.s
+
 rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.o: rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.o
 
@@ -908,6 +1004,30 @@ rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__ty
 rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.o: rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.i: rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.s: rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.o: rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.o
@@ -1005,6 +1125,30 @@ rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.o: rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.i: rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.s: rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.o: rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.o
 
@@ -1100,6 +1244,30 @@ rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filte
 rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.c.s
+
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.o: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.o
+
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.i: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.i
+
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.s: rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.c.s
 
 rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.o: rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.o
@@ -1197,6 +1365,30 @@ rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_fil
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.o: rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.i: rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.s: rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/hero_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.o: rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.o
 
@@ -1282,6 +1474,9 @@ help:
 	@echo "... rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.o"
 	@echo "... rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.i"
 	@echo "... rosidl_generator_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__functions.s"
+	@echo "... rosidl_generator_c/hero_msgs/msg/detail/motion__functions.o"
+	@echo "... rosidl_generator_c/hero_msgs/msg/detail/motion__functions.i"
+	@echo "... rosidl_generator_c/hero_msgs/msg/detail/motion__functions.s"
 	@echo "... rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.o"
 	@echo "... rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.i"
 	@echo "... rosidl_generator_c/hero_msgs/srv/detail/reset_motor_position__functions.s"
@@ -1303,6 +1498,9 @@ help:
 	@echo "... rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.o"
 	@echo "... rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.i"
 	@echo "... rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.s"
+	@echo "... rosidl_generator_py/hero_msgs/msg/_motion_s.o"
+	@echo "... rosidl_generator_py/hero_msgs/msg/_motion_s.i"
+	@echo "... rosidl_generator_py/hero_msgs/msg/_motion_s.s"
 	@echo "... rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.o"
 	@echo "... rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.i"
 	@echo "... rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.s"
@@ -1315,6 +1513,9 @@ help:
 	@echo "... rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.o"
 	@echo "... rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.i"
 	@echo "... rosidl_typesupport_c/hero_msgs/msg/dual_loop_pid_with_filter__type_support.s"
+	@echo "... rosidl_typesupport_c/hero_msgs/msg/motion__type_support.o"
+	@echo "... rosidl_typesupport_c/hero_msgs/msg/motion__type_support.i"
+	@echo "... rosidl_typesupport_c/hero_msgs/msg/motion__type_support.s"
 	@echo "... rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.o"
 	@echo "... rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.i"
 	@echo "... rosidl_typesupport_c/hero_msgs/srv/reset_motor_position__type_support.s"
@@ -1327,6 +1528,9 @@ help:
 	@echo "... rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.o"
 	@echo "... rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.i"
 	@echo "... rosidl_typesupport_cpp/hero_msgs/msg/dual_loop_pid_with_filter__type_support.s"
+	@echo "... rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.o"
+	@echo "... rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.i"
+	@echo "... rosidl_typesupport_cpp/hero_msgs/msg/motion__type_support.s"
 	@echo "... rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.o"
 	@echo "... rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.i"
 	@echo "... rosidl_typesupport_cpp/hero_msgs/srv/reset_motor_position__type_support.s"
@@ -1339,6 +1543,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/msg/detail/motion__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/hero_msgs/srv/detail/reset_motor_position__type_support_c.s"
@@ -1351,6 +1558,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/dual_loop_pid_with_filter__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/msg/detail/dds_fastrtps/motion__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/hero_msgs/srv/detail/dds_fastrtps/reset_motor_position__type_support.s"
@@ -1363,6 +1573,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/hero_msgs/msg/detail/motion__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/hero_msgs/srv/detail/reset_motor_position__type_support.s"
@@ -1375,6 +1588,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/dual_loop_pid_with_filter__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/msg/detail/motion__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/hero_msgs/srv/detail/reset_motor_position__type_support.s"

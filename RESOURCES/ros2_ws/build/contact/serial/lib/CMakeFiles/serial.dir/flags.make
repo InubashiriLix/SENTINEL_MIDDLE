@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/include -I/home/orangepi/GM/RESOURCES/ros2_ws/src/contact/serial/lib/include
 
-CXX_FLAGS =  -pthread -Wall -Wextra -Wpedantic
+CXX_FLAGS =  -pthread -g -Wall -Wextra -Wpedantic
 

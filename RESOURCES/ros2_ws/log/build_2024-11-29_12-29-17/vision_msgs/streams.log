@@ -1,0 +1,199 @@
+[0.025s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs -- -j8 -l8
+[0.167s] [  5%] Built target vision_msgs__cpp
+[0.168s] [ 12%] Built target vision_msgs__rosidl_generator_c
+[0.168s] [ 12%] Built target ament_cmake_python_copy_vision_msgs
+[0.216s] [ 23%] Built target vision_msgs__rosidl_typesupport_fastrtps_c
+[0.219s] [ 34%] Built target vision_msgs__rosidl_typesupport_c
+[0.249s] [ 45%] Built target vision_msgs__rosidl_typesupport_introspection_c
+[0.259s] [ 56%] Built target vision_msgs__rosidl_typesupport_introspection_cpp
+[0.264s] [ 67%] Built target vision_msgs__rosidl_typesupport_fastrtps_cpp
+[0.271s] [ 78%] Built target vision_msgs__rosidl_typesupport_cpp
+[0.322s] [ 78%] Built target vision_msgs
+[0.386s] [ 80%] Built target vision_msgs__py
+[0.460s] [ 89%] Built target vision_msgs__rosidl_generator_py
+[0.492s] [ 92%] Built target vision_msgs__rosidl_typesupport_introspection_c__pyext
+[0.511s] [ 96%] Built target vision_msgs__rosidl_typesupport_c__pyext
+[0.514s] [100%] Built target vision_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.535s] running egg_info
+[0.537s] writing vision_msgs.egg-info/PKG-INFO
+[0.537s] writing dependency_links to vision_msgs.egg-info/dependency_links.txt
+[0.538s] writing top-level names to vision_msgs.egg-info/top_level.txt
+[0.543s] reading manifest file 'vision_msgs.egg-info/SOURCES.txt'
+[0.544s] writing manifest file 'vision_msgs.egg-info/SOURCES.txt'
+[0.614s] [100%] Built target ament_cmake_python_build_vision_msgs_egg
+[0.656s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs -- -j8 -l8
+[0.886s] Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs
+[0.921s] -- Install configuration: ""
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/rosidl_interfaces/vision_msgs
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__type_support.h
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__functions.c
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__functions.h
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__functions.c
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__struct.h
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__struct.h
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__functions.h
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__functions.h
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__struct.h
+[0.921s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__type_support.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__struct.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__functions.c
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__functions.c
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__functions.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__type_support.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__type_support.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armors.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/autoaim_state.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/point.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armor.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/library_path.sh
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/library_path.dsv
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_c.so
+[0.922s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_fastrtps_c.h
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_c.so
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__type_support.c
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__type_support.c
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__type_support.c
+[0.923s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__type_support.c
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_introspection_c.h
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_c.so
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_c.so
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__traits.hpp
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__traits.hpp
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__builder.hpp
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__builder.hpp
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__traits.hpp
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__struct.hpp
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__struct.hpp
+[0.924s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__builder.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__builder.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__traits.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__struct.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__struct.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/autoaim_state.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armor.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/armors.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/point.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/dds_fastrtps
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[0.925s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__type_support.cpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/autoaim_state__rosidl_typesupport_introspection_cpp.hpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/point__type_support.cpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armor__type_support.cpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/include/vision_msgs/vision_msgs/msg/detail/armors__type_support.cpp
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_introspection_cpp.so
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_typesupport_cpp.so
+[0.926s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.sh
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/pythonpath.dsv
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info
+[0.927s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.927s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.927s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.927s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/__init__.py
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armor_s.c
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_point.py
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armors.py
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_point_s.c
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armor.py
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_autoaim_state.py
+[0.927s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_autoaim_state_s.c
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg/_armors_s.c
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/__init__.py
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/libvision_msgs__rosidl_generator_py.so
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_c.c
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[0.928s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/_vision_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.986s] Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs'...
+[0.987s] Listing '/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/msg'...
+[1.001s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.002s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.002s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/local/lib/python3.10/dist-packages/vision_msgs/vision_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.002s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/lib/libvision_msgs__rosidl_generator_py.so
+[1.002s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Point.idl
+[1.002s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armor.idl
+[1.002s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armors.idl
+[1.002s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/AutoaimState.idl
+[1.003s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Point.msg
+[1.003s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armor.msg
+[1.003s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/Armors.msg
+[1.003s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/msg/AutoaimState.msg
+[1.003s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/package_run_dependencies/vision_msgs
+[1.004s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/parent_prefix_path/vision_msgs
+[1.004s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.sh
+[1.004s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/ament_prefix_path.dsv
+[1.004s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/path.sh
+[1.005s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/environment/path.dsv
+[1.005s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.bash
+[1.005s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.sh
+[1.005s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.zsh
+[1.005s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/local_setup.dsv
+[1.005s] -- Installing: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.dsv
+[1.005s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/ament_index/resource_index/packages/vision_msgs
+[1.005s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cExport.cmake
+[1.006s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.006s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.006s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.006s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.006s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.007s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport.cmake
+[1.007s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.007s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_cppExport.cmake
+[1.007s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.007s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.007s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.008s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport.cmake
+[1.008s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_pyExport.cmake
+[1.008s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/export_vision_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.008s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake-extras.cmake
+[1.009s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.009s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.010s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.010s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.010s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.010s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.010s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig.cmake
+[1.010s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/cmake/vision_msgsConfig-version.cmake
+[1.010s] -- Up-to-date: /home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs/share/vision_msgs/package.xml
+[1.070s] Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs

@@ -1,6 +1,0 @@
-Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs
-Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/GM/RESOURCES/ros2_ws/src/vision_msgs -DCMAKE_INSTALL_PREFIX=/home/orangepi/GM/RESOURCES/ros2_ws/install/vision_msgs
-Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs -- -j8 -l8
-Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs -- -j8 -l8
-Invoking command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs
-Invoked command in '/home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/GM/RESOURCES/ros2_ws/build/vision_msgs

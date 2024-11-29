@@ -71,12 +71,14 @@ hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/_hero_msgs
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_c.c
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_auto_aim.py
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter.py
+hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_motion.py
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/srv/_vision_mode_switch.py
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/srv/_reset_motor_position.py
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/msg/__init__.py
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/srv/__init__.py
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c
+hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_motion_s.c
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c
 hero_msgs__py/CMakeFiles/hero_msgs__py: rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c
 
@@ -95,6 +97,7 @@ rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hero_msgs/msg/AutoAIM.idl
 rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hero_msgs/msg/DualLoopPIDWithFilter.idl
+rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hero_msgs/msg/Motion.idl
 rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hero_msgs/srv/VisionModeSwitch.idl
 rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hero_msgs/srv/ResetMotorPosition.idl
 rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -144,6 +147,9 @@ rosidl_generator_py/hero_msgs/msg/_auto_aim.py: rosidl_generator_py/hero_msgs/_h
 rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter.py: rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter.py
 
+rosidl_generator_py/hero_msgs/msg/_motion.py: rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hero_msgs/msg/_motion.py
+
 rosidl_generator_py/hero_msgs/srv/_vision_mode_switch.py: rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hero_msgs/srv/_vision_mode_switch.py
 
@@ -162,6 +168,9 @@ rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c: rosidl_generator_py/hero_msgs/_
 rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c: rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c
 
+rosidl_generator_py/hero_msgs/msg/_motion_s.c: rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hero_msgs/msg/_motion_s.c
+
 rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c: rosidl_generator_py/hero_msgs/_hero_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hero_msgs/srv/_vision_mode_switch_s.c
 
@@ -177,6 +186,8 @@ hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_auto_aim.py
 hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_auto_aim_s.c
 hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter.py
 hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_dual_loop_pid_with_filter_s.c
+hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_motion.py
+hero_msgs__py: rosidl_generator_py/hero_msgs/msg/_motion_s.c
 hero_msgs__py: rosidl_generator_py/hero_msgs/srv/__init__.py
 hero_msgs__py: rosidl_generator_py/hero_msgs/srv/_reset_motor_position.py
 hero_msgs__py: rosidl_generator_py/hero_msgs/srv/_reset_motor_position_s.c
